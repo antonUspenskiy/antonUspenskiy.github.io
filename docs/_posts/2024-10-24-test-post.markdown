@@ -2,6 +2,7 @@
 layout: post
 title:  "Проверочный пост"
 date:   2024-10-24 15:38:16
+categories: jekyll update
 ---
 
 Кое-че я тут написал, **тест, тест, тест.**
