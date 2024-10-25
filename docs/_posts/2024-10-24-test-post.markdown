@@ -3,6 +3,7 @@ layout: post
 title:  "ZF 8HP - как немцы сделать лучше хотели"
 date:   2024-10-24 15:38:16 +0300
 categories: jekyll update
+permalink: /articles/
 ---
 
 # История происхождения
