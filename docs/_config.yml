@@ -25,6 +25,19 @@ url: "https://antonUspenskiy.github.io/my-portfolio"  # Убедись, что U
 theme: minima  # или любой другой выбранный тобой
 twitter_username: jekyllrb
 github_username:  jekyll
+plugins:
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+
+navigation:
+  - name: "Статьи"
+    link: /articles/
 
 
 # Exclude from processing.
