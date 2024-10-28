@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ZF 8HP Спасение или оверинжиниринг?"
+title: "ZF 8HP - Сумрачный гений заигрался"
 date: 2024-10-24
 categories: articles
 excerpt: Краткое описание
