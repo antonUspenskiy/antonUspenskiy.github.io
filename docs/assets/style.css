@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f0f0; /* Цвет фона страницы */
+    font-family: Arial, sans-serif; /* Шрифт для текста */
+}
+
+.button {
+    display: block;
+    width: 200px; /* Ширина кнопки */
+    height: 100px; /* Высота кнопки */
+    margin: 20px auto; /* Центрирование кнопки */
+    background-size: cover; /* Заставка на кнопке */
+    text-align: center;
+    line-height: 100px; /* Вертикальное выравнивание текста */
+    font-size: 24px; /* Размер шрифта */
+    color: white; /* Цвет текста */
+    border: none; /* Без рамки */
+    transition: transform 0.2s; /* Плавный переход при наведении */
+}
+
+.button:hover {
+    transform: scale(1.05); /* Увеличение кнопки при наведении */
+}
