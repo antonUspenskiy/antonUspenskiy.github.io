@@ -20,6 +20,7 @@ body {
     line-height: 100px; /* Вертикальное выравнивание текста */
     font-size: 24px; /* Размер шрифта */
     color: white; /* Цвет текста */
+    text-decoration: none;
     border: none; /* Без рамки */
     transition: transform 0.2s; /* Плавный переход при наведении */
 }
