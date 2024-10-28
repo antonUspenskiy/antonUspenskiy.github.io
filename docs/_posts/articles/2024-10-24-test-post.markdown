@@ -2,7 +2,7 @@
 layout: post
 title:  "ZF 8HP - как немцы сделать лучше хотели"
 date:   2024-10-28
-category: articles
+categories: articles
 excerpt: "Краткое описание"
 ---
 
