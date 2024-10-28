@@ -21,7 +21,7 @@
 title: My Portfolio
 description: A collection of my writings and projects
 baseurl: ""
-url: "https://antonUspenskiy.github.io/"  # Убедись, что URL верный
+url: "" #"https://antonUspenskiy.github.io/"  # Убедись, что URL верный
 theme: minima  # или любой другой выбранный тобой
 twitter_username: jekyllrb
 github_username:  jekyll
