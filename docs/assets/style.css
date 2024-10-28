@@ -28,4 +28,5 @@ body {
 
 .button:hover {
     transform: scale(1.05); /* Увеличение кнопки при наведении */
+    text-decoration: none;
 }
