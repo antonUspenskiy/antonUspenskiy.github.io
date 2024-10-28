@@ -3,11 +3,18 @@ body {
     font-family: Arial, sans-serif; /* Шрифт для текста */
 }
 
+.button-container {
+    display: flex; /* Используем Flexbox для горизонтального размещения */
+    justify-content: center; /* Центрируем кнопки */
+    align-items: center; /* Выравниваем кнопки по центру по вертикали */
+    flex-wrap: wrap; /* Позволяем кнопкам оборачиваться на следующую строку, если место закончится */
+}
+
 .button {
     display: block;
     width: 200px; /* Ширина кнопки */
     height: 100px; /* Высота кнопки */
-    margin: 20px auto; /* Центрирование кнопки */
+    margin: 10px; /* Отступ между кнопками */
     background-size: cover; /* Заставка на кнопке */
     text-align: center;
     line-height: 100px; /* Вертикальное выравнивание текста */
