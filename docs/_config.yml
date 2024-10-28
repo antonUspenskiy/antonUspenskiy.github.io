@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: My Portfolio
-description: A collection of my writings and projects
+title: Антон Успенский
+description: Технический писатель/автор статей
 baseurl: ""
 url: "" #"https://antonUspenskiy.github.io/"  # Убедись, что URL верный
 theme: minima  # или любой другой выбранный тобой
