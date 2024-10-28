@@ -11,13 +11,14 @@ body {
 
 .button {
     background-size: cover; /* Убедитесь, что фон кнопок заполняет весь элемент */
-    width: 200px; /* Установите ширину кнопок */
+    width: 300px; /* Установите ширину кнопок */
     height: 400px; /* Установите высоту кнопок */
     display: flex; /* Используем flexbox для центровки текста */
     justify-content: center; /* Центрируем текст по горизонтали */
     align-items: center; /* Центрируем текст по вертикали */
     border-radius: 10px; /* Скругление углов кнопок */
     margin: 10px; /* Отступ между кнопками */
+    text-decoration: none;
 }
 
 .button a {
