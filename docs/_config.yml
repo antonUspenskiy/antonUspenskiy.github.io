@@ -27,17 +27,16 @@ twitter_username: jekyllrb
 github_username:  jekyll
 plugins:
   - jekyll-feed
-
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: post
-
-navigation:
-  - name: "Статьи"
-    link: /articles/
+collections:
+  articles:
+    output: true
+    permalink: /articles/:title/
+  reports:
+    output: true
+    permalink: /reports/:title/
+  other:
+    output: true
+    permalink: /other/:title/
 
 
 # Exclude from processing.
