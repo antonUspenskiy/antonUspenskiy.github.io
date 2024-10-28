@@ -28,28 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-collections:
-  articles:
-    output: true
-    permalink: /articles/:title/
-defaults:
-  - scope:
-      path: "docs/_posts/articles"
-      type: articles
-    values:
-      layout: post
-  reports:
-    output: true
-    permalink: /reports/:title/
-    source: docs/_posts/reports
-  other:
-    output: true
-    permalink: /other/:title/
-    source: docs/_posts/other
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
