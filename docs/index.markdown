@@ -5,11 +5,14 @@ layout: default
 title: Главная
 ---
 
-<h1>Добро пожаловать на мой сайт!</h1>
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 
-<div style="display: flex; flex-direction: column; gap: 10px;">
-  <a href="/articles/" style="padding: 10px; text-align: center; background-color: #4CAF50; color: white; text-decoration: none;">Статьи</a>
-  <a href="/reports/" style="padding: 10px; text-align: center; background-color: #008CBA; color: white; text-decoration: none;">Отчеты</a>
-  <a href="/other/" style="padding: 10px; text-align: center; background-color: #f44336; color: white; text-decoration: none;">Другое</a>
+<div class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
+    <a href="/articles/" style="color: white; text-decoration: none;">Статьи</a>
 </div>
----
+<div class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
+    <a href="/reports/" style="color: white; text-decoration: none;">Отчеты</a>
+</div>
+<div class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
+    <a href="/other/" style="color: white; text-decoration: none;">Другое</a>
+</div>
