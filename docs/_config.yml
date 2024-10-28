@@ -37,8 +37,6 @@ collections:
   other:
     output: true
     permalink: /other/:title/
-include: 
-    - assets
 
 # Exclude from processing.
 # The following items will not be processed, by default.
