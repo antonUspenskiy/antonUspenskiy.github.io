@@ -33,12 +33,15 @@ collections:
   articles:
     output: true
     permalink: /articles/:title/
+    source: docs/_posts/articles
   reports:
     output: true
     permalink: /reports/:title/
+    source: docs/_posts/reports
   other:
     output: true
     permalink: /other/:title/
+    source: docs/_posts/other
 
 # Build settings
 theme: minima
