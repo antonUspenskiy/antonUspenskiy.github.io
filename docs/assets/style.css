@@ -4,29 +4,28 @@ body {
 }
 
 .button-container {
-    display: flex; /* Используем Flexbox для горизонтального размещения */
-    justify-content: center; /* Центрируем кнопки */
-    align-items: center; /* Выравниваем кнопки по центру по вертикали */
-    flex-wrap: wrap; /* Позволяем кнопкам оборачиваться на следующую строку, если место закончится */
+    display: flex; /* Используем flexbox для горизонтального расположения кнопок */
+    justify-content: center; /* Центрируем кнопки по горизонтали */
+    align-items: center; /* Центрируем кнопки по вертикали */
 }
 
 .button {
-    display: block;
-    width: 200px; /* Ширина кнопки */
-    height: 600px; /* Высота кнопки */
+    background-size: cover; /* Убедитесь, что фон кнопок заполняет весь элемент */
+    width: 200px; /* Установите ширину кнопок */
+    height: 400px; /* Установите высоту кнопок */
+    display: flex; /* Используем flexbox для центровки текста */
+    justify-content: center; /* Центрируем текст по горизонтали */
+    align-items: center; /* Центрируем текст по вертикали */
+    border-radius: 10px; /* Скругление углов кнопок */
     margin: 10px; /* Отступ между кнопками */
-    background-size: cover; /* Заставка на кнопке */
-    text-align: center;
-    line-height: 100px; /* Вертикальное выравнивание текста */
-    font-size: 24px; /* Размер шрифта */
-    color: white; /* Цвет текста */
-    text-decoration: none;
-    border: none; /* Без рамки */
-    transition: transform 0.2s; /* Плавный переход при наведении */
-    border-radius: 10px; /* Скругление углов, можно изменить значение */
 }
 
-.button:hover {
-    transform: scale(1.05); /* Увеличение кнопки при наведении */
-    text-decoration: none;
+.button a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: white; /* Цвет текста */
+    font-size: 18px; /* Установите размер шрифта, если нужно */
+}
+
+.button a:hover {
+    text-decoration: none; /* Убираем подчеркивание при наведении */
 }
