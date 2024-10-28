@@ -23,6 +23,7 @@ body {
     text-decoration: none;
     border: none; /* Без рамки */
     transition: transform 0.2s; /* Плавный переход при наведении */
+    border-radius: 10px; /* Скругление углов, можно изменить значение */
 }
 
 .button:hover {
