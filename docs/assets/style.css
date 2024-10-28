@@ -13,7 +13,7 @@ body {
 .button {
     display: block;
     width: 200px; /* Ширина кнопки */
-    height: 100px; /* Высота кнопки */
+    height: 600px; /* Высота кнопки */
     margin: 10px; /* Отступ между кнопками */
     background-size: cover; /* Заставка на кнопке */
     text-align: center;
