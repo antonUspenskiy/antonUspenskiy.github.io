@@ -95,13 +95,14 @@ body {
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  position: relative; /* Измените на relative */
+  bottom: 0; /* Уберите смещение вниз */
+  width: auto; /* Установите ширину на auto, чтобы текст не растягивался на всю ширину */
+  text-align: left; /* Выравнивание текста по левому краю */
+  margin-top: 5px; /* Добавьте отступ сверху для отделения от изображения */
 }
 
 /* Number text (1/3 etc) */
