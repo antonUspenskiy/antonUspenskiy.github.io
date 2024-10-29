@@ -3,22 +3,24 @@ body {
     font-family: Arial, sans-serif; /* Шрифт для текста */
 }
 
+/* Стиль контейнера кнопок */
 .button-container {
-    display: flex; /* Используем Flexbox для горизонтального размещения */
-    justify-content: center; /* Центрируем кнопки */
-    align-items: center; /* Выравниваем кнопки по центру по вертикали */
-    flex-wrap: wrap; /* Позволяем кнопкам оборачиваться на следующую строку, если место закончится */
+    display: flex; /* Горизонтальное размещение */
+    justify-content: center; /* Центрирование кнопок */
+    align-items: center; /* Выравнивание кнопок по центру по вертикали */
+    flex-wrap: wrap; /* Перенос кнопок на следующую строку при нехватке места */
 }
 
+/* Стиль кнопок */
 .button {
-    display: flex; /* Используем Flexbox для текстового содержимого кнопки */
-    justify-content: center; /* Центрируем текст по горизонтали */
-    align-items: center; /* Центрируем текст по вертикали */
+    display: flex; /* Flexbox для содержимого кнопки */
+    justify-content: center; /* Центрирование текста по горизонтали */
+    align-items: center; /* Центрирование текста по вертикали */
     width: 200px; /* Ширина кнопки */
-    height: 300px; /* Высота кнопки, измените на желаемую высоту */
+    height: 300px; /* Высота кнопки */
     margin: 10px; /* Отступ между кнопками */
-    background-size: cover; /* Заставка на кнопке */
-    font-size: 24px; /* Размер шрифта */
+    background-size: cover; /* Полное покрытие фоном */
+    font-size: 24px; /* Размер текста */
     color: white; /* Цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
     border: none; /* Без рамки */
@@ -26,46 +28,53 @@ body {
     border-radius: 10px; /* Скругление углов */
 }
 
+/* Стиль ссылки внутри кнопки */
 .button a {
     color: white; /* Цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
-    display: flex; /* Используем Flexbox для размещения текста */
+    display: flex; /* Flexbox для текстового содержимого */
     justify-content: center; /* Центрируем текст по горизонтали */
     align-items: center; /* Центрируем текст по вертикали */
     width: 100%; /* Ширина ссылки равна ширине кнопки */
     height: 100%; /* Высота ссылки равна высоте кнопки */
 }
 
+/* Стиль кнопки при наведении */
 .button:hover {
-    transform: scale(1.05); /* Увеличение кнопки при наведении */
+    transform: scale(1.05); /* Увеличение при наведении */
 }
 
+/* Стиль контейнера карусели */
 .carousel {
     position: relative;
     max-width: 600px;
     margin: auto;
 }
 
+/* Внутренняя часть карусели */
 .carousel-inner {
     position: relative;
     overflow: hidden;
 }
 
+/* Индивидуальный слайд */
 .carousel-item {
     display: none;
     width: 100%;
     transition: opacity 0.5s ease-in-out;
 }
 
+/* Активный слайд */
 .carousel-item.active {
     display: block;
 }
 
+/* Контролы карусели */
 .carousel-control {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50%; /* Зона нажатия будет занимать половину изображения */
+    width: 50%; /* Зона нажатия */
     cursor: pointer;
     user-select: none;
     background: rgba(0, 0, 0, 0); /* Прозрачный фон для захвата клика */
@@ -78,22 +87,26 @@ body {
     transition: opacity 0.3s;
 }
 
+/* Контролы карусели при наведении */
 .carousel-control:hover {
     opacity: 1;
 }
 
+/* Левый контрол */
 .carousel-control.prev {
     left: 0;
     justify-content: flex-start;
     padding-left: 15px;
 }
 
+/* Правый контрол */
 .carousel-control.next {
     right: 0;
     justify-content: flex-end;
     padding-right: 15px;
 }
 
+/* Индикатор слайдов */
 .carousel-indicators {
     text-align: center;
     position: absolute;
@@ -103,6 +116,7 @@ body {
     font-size: 16px;
 }
 
+/* Точки-индикаторы */
 .dot {
     display: inline-block;
     height: 10px;
@@ -114,6 +128,7 @@ body {
     transition: background-color 0.3s;
 }
 
+/* Активная точка-индикатор */
 .dot.active {
     background-color: #717171;
 }
