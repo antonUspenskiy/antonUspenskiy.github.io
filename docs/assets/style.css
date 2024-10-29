@@ -46,7 +46,7 @@ body {
 
 .carousel {
     position: relative;
-    max-width: 600px;
+    max-width: 600px; /* Ширина карусели */
     margin: auto;
 }
 
@@ -56,26 +56,24 @@ body {
 }
 
 .carousel-item {
-    display: none;
+    display: none; /* Скрываем все слайды по умолчанию */
     width: 100%;
-    transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out; /* Плавный переход */
 }
 
 .carousel-item.active {
-    display: block;
+    display: block; /* Показываем только активный слайд */
 }
 
 .carousel-control {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px; /* Ширина кнопок */
-    height: 50px; /* Высота кнопок */
+    top: 50%; /* Центрируем стрелочки по вертикали */
+    transform: translateY(-50%); /* Выравнивание по центру */
+    width: 50px; /* Ширина области для нажатия */
+    height: 50px; /* Высота области для нажатия */
     cursor: pointer;
-    user-select: none;
     background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
     color: white;
-    font-size: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,15 +82,15 @@ body {
 }
 
 .carousel-control:hover {
-    opacity: 1;
+    opacity: 1; /* Полная видимость при наведении */
 }
 
 .carousel-control.prev {
-    left: 0;
+    left: 0; /* Расположение стрелочки слева */
 }
 
 .carousel-control.next {
-    right: 0;
+    right: 0; /* Расположение стрелочки справа */
 }
 
 .carousel-indicators {
@@ -100,6 +98,7 @@ body {
     position: absolute;
     bottom: 10px;
     width: 100%;
+    color: white;
 }
 
 .dot {
@@ -114,5 +113,5 @@ body {
 }
 
 .dot.active {
-    background-color: #717171;
+    background-color: #717171; /* Цвет активного индикатора */
 }
