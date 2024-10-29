@@ -16,22 +16,24 @@ ZF 8HP – это семейство восьмиступенчатых тран
 # Механика
 Начнем с механической части. По сравнению с 6HP, механика которой была изготовлена преимущественно из стали, новый агрегат значительно приобрел в алюминиевых узлах. Алюминий марки AlSi9Cu3(fe), он же силумин, из которого и произведено большинство узлов ZF 8HP, пусть и хорош своей легкостью, но плох своей хрупкостью. Такое качество материала приводит к тому, что со временем силуминовые узлы разрушаются: ребра корзин C, E и ступицы D, составляющих уже треть механики, разбиваются дисками сцепления; ломается планетарный редуктор P3 - изнашивается посадочное место осей его шестерен-сателлитов, что приводит к их люфтам и перекосам. Далее, при прогрессии перекоса, эти сателлиты вырывает вместе с кусками корпуса редуктора. Отдельного упоминания стоит силуминовое основание магнитного триггера, фиксирующееся в корпусе редуктора P2. Иногда оно обрывается, приводя к невозможности электронного блока мехатроника считывать входные обороты АКПП, и вынуждает ЭБУ ввести коробку в аварийный режим работы.
 
-<div class="carousel-container">
-    <div class="carousel-item" style="display: block;">
-        <img src="https://antonuspenskiy.github.io/assets/8HP-C-E-Drums-Ribs-1920.jpg" alt="Image 1">
+<div class="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://antonuspenskiy.github.io/assets/8HP-C-E-Drums-Ribs-1920.jpg" alt="Первое изображение">
+        </div>
+        <div class="carousel-item">
+            <img src="https://antonuspenskiy.github.io/assets/8HP-D-hub-ribs-1920.jpg" alt="Второе изображение">
+        </div>
+        <div class="carousel-item">
+            <img src="https://antonuspenskiy.github.io/assets/8HP-C-drum-destroyed-1920.jpg" alt="Третье изображение">
+        </div>
     </div>
-    <div class="carousel-item">
-        <img src="https://antonuspenskiy.github.io/assets/8HP-D-hub-ribs-1920.jpg" alt="Image 2">
-    </div>
-    <div class="carousel-item">
-        <img src="https://antonuspenskiy.github.io/assets/8HP-C-drum-destroyed-1920.jpg" alt="Image 3">
-    </div>
-    <!-- Кнопки для переключения слайдов -->
-    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-    <a class="next" onclick="changeSlide(1)">&#10095;</a>
-    <!-- Индикатор текущего слайда -->
-    <div class="slide-indicator">
-        <span id="current-slide">1</span> / <span id="total-slides">3</span>
+    <div class="carousel-control prev" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="carousel-control next" onclick="changeSlide(1)">&#10095;</div>
+    <div class="carousel-indicators">
+        <span class="dot active" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
     </div>
 </div>
 
@@ -58,28 +60,34 @@ ZF 8HP – это семейство восьмиступенчатых тран
 Выгодна ли 8HP? – Нет, если вы попадете на ее ремонт. Надежна ли? – В сравнении с предыдущим поколением - точно нет. Стоят ли таких жертв ее комфортные и динамические характеристики? – Ответ для каждого будет своим, но, позвольте угадать, что у большинства – нет. Можем ли мы выбирать? – Снова – нет, сейчас все коробки передач такие.
 
 <script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
+let currentSlideIndex = 0;
 
-    function changeSlide(n) {
-        showSlides(slideIndex += n);
+function showSlides(index) {
+    const slides = document.querySelectorAll('.carousel-item');
+    const dots = document.querySelectorAll('.dot');
+
+    if (index >= slides.length) {
+        currentSlideIndex = 0;
+    }
+    if (index < 0) {
+        currentSlideIndex = slides.length - 1;
     }
 
-    function showSlides(n) {
-        let slides = document.getElementsByClassName("carousel-item");
-        let totalSlides = slides.length;
+    slides.forEach(slide => slide.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
 
-        if (n > totalSlides) { slideIndex = 1; }
-        if (n < 1) { slideIndex = totalSlides; }
+    slides[currentSlideIndex].classList.add('active');
+    dots[currentSlideIndex].classList.add('active');
+}
 
-        for (let i = 0; i < totalSlides; i++) {
-            slides[i].style.display = "none";
-        }
+function changeSlide(n) {
+    showSlides(currentSlideIndex += n);
+}
 
-        slides[slideIndex - 1].style.display = "block";
+function currentSlide(n) {
+    showSlides(currentSlideIndex = n - 1);
+}
 
-        // Update indicator
-        document.getElementById("current-slide").textContent = slideIndex;
-        document.getElementById("total-slides").textContent = totalSlides;
-    }
+// Инициализируем слайд
+showSlides(currentSlideIndex);
 </script>
