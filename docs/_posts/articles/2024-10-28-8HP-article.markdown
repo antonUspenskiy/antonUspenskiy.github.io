@@ -5,6 +5,7 @@ date: 2024-10-24
 categories: articles
 excerpt: Краткое описание
 image: "https://antonuspenskiy.github.io/assets/cover-1920.jpg"
+css: "https://antonuspenskiy.github.io/assets/style.css"
 ---
 
 ![Cover](https://antonuspenskiy.github.io/assets/cover-1920.jpg)
