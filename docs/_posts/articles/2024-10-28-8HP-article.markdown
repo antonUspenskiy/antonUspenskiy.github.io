@@ -20,16 +20,13 @@ ZF 8HP – это семейство восьмиступенчатых тран
     <div class="carousel-inner">
         <img src="https://antonuspenskiy.github.io/assets/8HP-C-E-Drums-Ribs-1920.jpg" class="carousel-item active" alt="Фото 1">
         <img src="https://antonuspenskiy.github.io/assets/8HP-D-hub-ribs-1920.jpg" class="carousel-item" alt="Фото 2">
-        <img src="https://antonuspenskiy.github.io/assets/8HP-C-drum-destroyed-1920.jpg" class="carousel-item" alt="Фото 3">
+        <img src="https://antonuspenskiy.github.io/assets/8HP-C-drum-destroyed-1920.jpg" alt="Фото 3">
         <!-- Добавьте больше изображений, если нужно -->
     </div>
-    <a class="carousel-control prev" onclick="changeSlide(-1)">&#10094;</a>
-    <a class="carousel-control next" onclick="changeSlide(1)">&#10095;</a>
+    <div class="carousel-control prev" onclick="changeSlide(-1)">&#10094;</div>
+    <div class="carousel-control next" onclick="changeSlide(1)">&#10095;</div>
     <div class="carousel-indicators">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-        <!-- Добавьте точки для каждого изображения -->
+        Фото <span id="current-slide">1</span> из <span id="total-slides">3</span>
     </div>
 </div>
 
@@ -56,24 +53,33 @@ ZF 8HP – это семейство восьмиступенчатых тран
 Выгодна ли 8HP? – Нет, если вы попадете на ее ремонт. Надежна ли? – В сравнении с предыдущим поколением - точно нет. Стоят ли таких жертв ее комфортные и динамические характеристики? – Ответ для каждого будет своим, но, позвольте угадать, что у большинства – нет. Можем ли мы выбирать? – Снова – нет, сейчас все коробки передач такие.
 
 <script>
-let slideIndex = 1;
-showSlides(slideIndex);
+    let slideIndex = 1;
+    showSlides(slideIndex);
 
-function changeSlide(n) { showSlides(slideIndex += n); }
-function currentSlide(n) { showSlides(slideIndex = n); }
+    function changeSlide(n) {
+        showSlides(slideIndex += n);
+    }
 
-function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("carousel-item");
-    let dots = document.getElementsByClassName("dot");
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
 
-    if (n > slides.length) { slideIndex = 1 }
-    if (n < 1) { slideIndex = slides.length }
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("carousel-item");
+        let totalSlides = slides.length;
 
-    for (i = 0; i < slides.length; i++) { slides[i].style.display = "none"; }
-    for (i = 0; i < dots.length; i++) { dots[i].className = dots[i].className.replace(" active", ""); }
+        if (n > totalSlides) { slideIndex = 1 }
+        if (n < 1) { slideIndex = totalSlides }
 
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-}
+        for (i = 0; i < totalSlides; i++) {
+            slides[i].style.display = "none";
+        }
+
+        slides[slideIndex-1].style.display = "block";
+
+        // Update the indicator
+        document.getElementById("current-slide").textContent = slideIndex;
+        document.getElementById("total-slides").textContent = totalSlides;
+    }
 </script>
