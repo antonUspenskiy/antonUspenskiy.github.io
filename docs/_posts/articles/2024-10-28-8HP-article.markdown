@@ -18,9 +18,9 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <div class="carousel">
     <div class="carousel-inner">
-        <img src="https://antonuspenskiy.github.io/assets/cover-1920.jpg" class="carousel-item active" alt="Фото 1">
-        <img src="https://antonuspenskiy.github.io/assets/cover-1920.jpg" class="carousel-item" alt="Фото 2">
-        <img src="https://antonuspenskiy.github.io/assets/cover-1920.jpg" class="carousel-item" alt="Фото 3">
+        <img src="https://antonuspenskiy.github.io/assets/8HP-C-E-Drums-Ribs-1920.jpg" class="carousel-item active" alt="Фото 1">
+        <img src="https://antonuspenskiy.github.io/assets/8HP-D-hub-ribs-1920.jpg" class="carousel-item" alt="Фото 2">
+        <img src="https://antonuspenskiy.github.io/assets/8HP-C-drum-destroyed-1920.jpg" class="carousel-item" alt="Фото 3">
         <!-- Добавьте больше изображений, если нужно -->
     </div>
     <a class="carousel-control prev" onclick="changeSlide(-1)">&#10094;</a>
