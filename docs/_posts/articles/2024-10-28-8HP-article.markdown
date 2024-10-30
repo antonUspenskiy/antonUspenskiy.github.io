@@ -47,9 +47,9 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <!-- Dots for the first carousel -->
 <div style="text-align:center">
-  <span class="dot1" onclick="currentSlide(1, 0)"></span>
-  <span class="dot1" onclick="currentSlide(2, 0)"></span>
-  <span class="dot1" onclick="currentSlide(3, 0)"></span>
+  <span class="dot0" onclick="currentSlide(1, 0)"></span>
+  <span class="dot0" onclick="currentSlide(2, 0)"></span>
+  <span class="dot0" onclick="currentSlide(3, 0)"></span>
 </div>
 
 Ломается планетарный редуктор P3 - изнашивается посадочное место осей его шестерен-сателлитов, что приводит к их люфтам и перекосам. Далее, при прогрессии перекоса, эти сателлиты вырывает вместе с кусками корпуса редуктора. Отдельного упоминания стоит силуминовое основание магнитного триггера, фиксирующееся в корпусе редуктора P2. Иногда оно обрывается, приводя к невозможности электронного блока мехатроника считывать входные обороты АКПП, и вынуждает ЭБУ ввести коробку в аварийный режим работы.
@@ -57,15 +57,21 @@ ZF 8HP – это семейство восьмиступенчатых тран
 <!-- Вторая карусель -->
 <div class="slideshow-container">
   <div class="mySlides2 fade">
-    <div class="numbertext">1 / 2</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-C-drum-destroyed-1920.jpg" style="width:100%">
+    <div class="numbertext">1 / 3</div>
+    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P3-finger-1920.jpg" style="width:100%">
     <div class="text">Caption A</div>
   </div>
 
   <div class="mySlides2 fade">
-    <div class="numbertext">2 / 2</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-D-hub-ribs-1920.jpg" style="width:100%">
+    <div class="numbertext">2 / 3</div>
+    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P3-broken-1920.jpg" style="width:100%">
     <div class="text">Caption B</div>
+  </div>
+  
+  <div class="mySlides2 fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P2-trigger-1920.jpg" style="width:100%">
+    <div class="text">Caption C</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
@@ -74,8 +80,9 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <!-- Dots for the second carousel -->
 <div style="text-align:center">
-  <span class="dot2" onclick="currentSlide(1, 1)"></span>
-  <span class="dot2" onclick="currentSlide(2, 1)"></span>
+  <span class="dot1" onclick="currentSlide(1, 1)"></span>
+  <span class="dot1" onclick="currentSlide(2, 1)"></span>
+  <span class="dot1" onclick="currentSlide(3, 1)"></span>
 </div>
 
 # Гидравлика
