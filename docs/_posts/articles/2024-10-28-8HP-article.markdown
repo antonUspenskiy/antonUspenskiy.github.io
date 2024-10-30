@@ -27,19 +27,19 @@ ZF 8HP – это семейство восьмиступенчатых тран
   <div class="mySlides1 fade">
     <div class="numbertext">1 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-C-E-Drums-Ribs-1920.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="text">Повреждение ребер корзин C и E</div>
   </div>
 
   <div class="mySlides1 fade">
     <div class="numbertext">2 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-D-hub-ribs-1920.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="text">Повреждение ребер ступицы D</div>
   </div>
 
   <div class="mySlides1 fade">
     <div class="numbertext">3 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-C-drum-destroyed-1920.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="text">Разрушение корзины C</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
@@ -61,19 +61,19 @@ ZF 8HP – это семейство восьмиступенчатых тран
   <div class="mySlides2 fade">
     <div class="numbertext">1 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P3-finger-1920.jpg" style="width:100%">
-    <div class="text">Caption A</div>
+    <div class="text">Проворот оси сателлита</div>
   </div>
 
   <div class="mySlides2 fade">
     <div class="numbertext">2 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P3-broken-1920.jpg" style="width:100%">
-    <div class="text">Caption B</div>
+    <div class="text">Разрушение редуктора, вызванное перекосом сателлита</div>
   </div>
 
   <div class="mySlides2 fade">
     <div class="numbertext">3 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P2-trigger-1920.jpg" style="width:100%">
-    <div class="text">Caption C</div>
+    <div class="text">Отрыв основания триггера</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
@@ -100,19 +100,19 @@ ZF 8HP – это семейство восьмиступенчатых тран
   <div class="mySlides3 fade">
     <div class="numbertext">1 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-separator-tracks-damage.jpg" style="width:100%">
-    <div class="text">Caption A</div>
+    <div class="text">Рассыпающиеся дорожки пластины-сепаратора</div>
   </div>
 
   <div class="mySlides3 fade">
     <div class="numbertext">2 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-dampers-1920.jpg" style="width:100%">
-    <div class="text">Caption B</div>
+    <div class="text">Вдавленные головки демпферов</div>
   </div>
 
   <div class="mySlides3 fade">
     <div class="numbertext">3 / 3</div>
     <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-valves-coat-damaged-1920.jpg" style="width:100%">
-    <div class="text">Caption C</div>
+    <div class="text">Разрушение тефлонового покрытия клапанов</div>
   </div>
 
   <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
