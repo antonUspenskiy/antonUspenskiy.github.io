@@ -56,6 +56,32 @@ ZF 8HP – это семейство восьмиступенчатых тран
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 
+<script>
+let slideIndex = [1, 1];
+let slideId = ["mySlides1", "mySlides2"];
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function currentSlide(n, no) {
+  showSlides(slideIndex[no] = n, no);
+}
+
+function showSlides(n, no) {
+  let i;
+  let x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex[no] - 1].style.display = "block";
+}
+</script>
+
 Ломается планетарный редуктор P3 - изнашивается посадочное место осей его шестерен-сателлитов, что приводит к их люфтам и перекосам. Далее, при прогрессии перекоса, эти сателлиты вырывает вместе с кусками корпуса редуктора. Отдельного упоминания стоит силуминовое основание магнитного триггера, фиксирующееся в корпусе редуктора P2. Иногда оно обрывается, приводя к невозможности электронного блока мехатроника считывать входные обороты АКПП, и вынуждает ЭБУ ввести коробку в аварийный режим работы.
 
 <!-- Slideshow container -->
@@ -123,28 +149,3 @@ ZF 8HP – это семейство восьмиступенчатых тран
 Посчитать эти показатели точно, увы, не представляется возможным – слишком много на расход топлива влияет факторов, и 8HP от того не легче. С регулярной сменой темпа езды, температурой на улице, давлением в шинах, и так далее, вплоть до отрезанных лямбда-зондов, факт ее топливной экономичности переходит в область конспирологии. Где-то эта экономия, наверное, проблескивает, но абсолютно меркнет перед стоимостью ремонта 8HP, наступающему куда раньше и куда сильнее бьющему по кошельку. Все из-за усложнения и ослабления конструкции этого агрегата.
 
 Выгодна ли 8HP? – Нет, если вы попадете на ее ремонт. Надежна ли? – В сравнении с предыдущим поколением - точно нет. Стоят ли таких жертв ее комфортные и динамические характеристики? – Ответ для каждого будет своим, но, позвольте угадать, что у большинства – нет. Можем ли мы выбирать? – Снова – нет, сейчас все коробки передач такие.
-<script>
-let slideIndex = [1, 1];
-let slideId = ["mySlides1", "mySlides2"];
-showSlides(1, 0);
-showSlides(1, 1);
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function currentSlide(n, no) {
-  showSlides(slideIndex[no] = n, no);
-}
-
-function showSlides(n, no) {
-  let i;
-  let x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex[no] - 1].style.display = "block";
-}
-</script>
