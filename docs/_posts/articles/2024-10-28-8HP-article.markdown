@@ -127,7 +127,7 @@ function currentSlide(n, no) {
 function showSlides(n, no) {
   let i;
   let slides = document.getElementsByClassName(slideId[no]);
-  let dots = document.getElementsByClassName("dot" + (no + 1));
+  let dots = document.getElementsByClassName("dot" + (no + 1)); // корректный класс для каждой карусели
 
   if (n > slides.length) { slideIndex[no] = 1 }
   if (n < 1) { slideIndex[no] = slides.length }
