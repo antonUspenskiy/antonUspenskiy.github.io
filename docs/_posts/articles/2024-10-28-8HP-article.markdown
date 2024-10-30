@@ -23,21 +23,22 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <!-- Первая карусель -->
 <div class="slideshow-container">
+
   <div class="mySlides1 fade">
     <div class="numbertext">1 / 3</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-C-E-Drums-Ribs-1920.jpg" style="width:100%">
+    <img src="https://antonuspenskiy.github.io/assets/8HP-C-E-Drums-Ribs-1920.jpg" style="width:100%">
     <div class="text">Caption Text</div>
   </div>
 
   <div class="mySlides1 fade">
     <div class="numbertext">2 / 3</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-D-hub-ribs-1920.jpg" style="width:100%">
+    <img src="https://antonuspenskiy.github.io/assets/8HP-D-hub-ribs-1920.jpg" style="width:100%">
     <div class="text">Caption Two</div>
   </div>
 
   <div class="mySlides1 fade">
     <div class="numbertext">3 / 3</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-C-drum-destroyed-1920.jpg" style="width:100%">
+    <img src="https://antonuspenskiy.github.io/assets/8HP-C-drum-destroyed-1920.jpg" style="width:100%">
     <div class="text">Caption Three</div>
   </div>
 
@@ -45,7 +46,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
   <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
 </div>
 
-<!-- Dots for the first carousel -->
+<!-- Индикаторы для первой карусели -->
 <div style="text-align:center">
   <span class="dot0" onclick="currentSlide(1, 0)"></span>
   <span class="dot0" onclick="currentSlide(2, 0)"></span>
@@ -56,21 +57,22 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <!-- Вторая карусель -->
 <div class="slideshow-container">
+
   <div class="mySlides2 fade">
     <div class="numbertext">1 / 3</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P3-finger-1920.jpg" style="width:100%">
+    <img src="https://antonuspenskiy.github.io/assets/8HP-P3-finger-1920.jpg" style="width:100%">
     <div class="text">Caption A</div>
   </div>
 
   <div class="mySlides2 fade">
     <div class="numbertext">2 / 3</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P3-broken-1920.jpg" style="width:100%">
+    <img src="https://antonuspenskiy.github.io/assets/8HP-P3-broken-1920.jpg" style="width:100%">
     <div class="text">Caption B</div>
   </div>
-  
+
   <div class="mySlides2 fade">
     <div class="numbertext">3 / 3</div>
-    <img src="https://antonuspenskiy.github.io/assets/8HP-article/8HP-P2-trigger-1920.jpg" style="width:100%">
+    <img src="https://antonuspenskiy.github.io/assets/8HP-P2-trigger-1920.jpg" style="width:100%">
     <div class="text">Caption C</div>
   </div>
 
@@ -78,7 +80,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
 
-<!-- Dots for the second carousel -->
+<!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
   <span class="dot1" onclick="currentSlide(1, 1)"></span>
   <span class="dot1" onclick="currentSlide(2, 1)"></span>
@@ -117,11 +119,11 @@ ZF 8HP – это семейство восьмиступенчатых тран
 Выгодна ли 8HP? – Нет, если вы попадете на ее ремонт. Надежна ли? – В сравнении с предыдущим поколением - точно нет. Стоят ли таких жертв ее комфортные и динамические характеристики? – Ответ для каждого будет своим, но, позвольте угадать, что у большинства – нет. Можем ли мы выбирать? – Снова – нет, сейчас все коробки передач такие.
 
 <script>
-let slideIndex = [1, 1]; // начальные индексы для каждой карусели
-let slideId = ["mySlides1", "mySlides2"]; // уникальные классы для каждой карусели
+let slideIndex = [1, 1]; // Индексы для каждой карусели
+let slideId = ["mySlides1", "mySlides2"]; // Уникальные классы для каждой карусели
 
-showSlides(1, 0);
-showSlides(1, 1);
+showSlides(1, 0); // Показать первый слайд первой карусели
+showSlides(1, 1); // Показать первый слайд второй карусели
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -133,20 +135,20 @@ function currentSlide(n, no) {
 
 function showSlides(n, no) {
   let i;
-  let slides = document.getElementsByClassName(slideId[no]);
-  let dots = document.getElementsByClassName("dot" + no); // корректный класс для каждой карусели
+  let slides = document.getElementsByClassName(slideId[no]); // Получаем слайды для текущей карусели
+  let dots = document.getElementsByClassName("dot" + no); // Получаем индикаторы для текущей карусели
 
-  if (n > slides.length) { slideIndex[no] = 1 }
-  if (n < 1) { slideIndex[no] = slides.length }
+  if (n > slides.length) { slideIndex[no] = 1; } // Если индекс больше количества слайдов
+  if (n < 1) { slideIndex[no] = slides.length; } // Если индекс меньше 1
 
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none"; // Скрываем все слайды
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", ""); // Убираем класс active у всех индикаторов
   }
 
-  slides[slideIndex[no] - 1].style.display = "block";
-  dots[slideIndex[no] - 1].className += " active";
+  slides[slideIndex[no] - 1].style.display = "block"; // Показываем текущий слайд
+  dots[slideIndex[no] - 1].className += " active"; // Активируем текущий индикатор
 }
 </script>
