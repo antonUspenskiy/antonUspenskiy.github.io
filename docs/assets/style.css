@@ -97,7 +97,7 @@ body {
 .text {
   color: black;
   font-size: 12px;
-  padding: 8px 12px;
+  /* padding: 8px 12px; */
   position: relative; /* Измените на relative */
   bottom: 0; /* Уберите смещение вниз */
   width: auto; /* Установите ширину на auto, чтобы текст не растягивался на всю ширину */
