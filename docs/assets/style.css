@@ -96,13 +96,19 @@ body {
 /* Caption text */
 .text {
   color: black;
-  font-size: 15px;
+  font-size: 12px;
   padding: 8px 12px;
   position: relative; /* Измените на relative */
   bottom: 0; /* Уберите смещение вниз */
   width: auto; /* Установите ширину на auto, чтобы текст не растягивался на всю ширину */
   text-align: left; /* Выравнивание текста по левому краю */
   margin-top: 5px; /* Добавьте отступ сверху для отделения от изображения */
+}
+
+/* Figures caption text */
+figure figcaption {
+  font-size: 12px; /* Укажите нужный размер */
+  color: black; /* Если нужно изменить цвет */
 }
 
 /* Number text (1/3 etc) */
