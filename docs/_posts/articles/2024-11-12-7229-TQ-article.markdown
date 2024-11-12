@@ -4,12 +4,12 @@ title: "Гидротрансформатор АКПП 722.9 – Токарный
 date: 2024-11-12
 categories: articles
 excerpt: Краткое описание
-image: "https://antonuspenskiy.github.io/assets/8HP-article/cover-1920.jpg"
+image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover.jpg"
 ---
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
-![Cover](https://antonuspenskiy.github.io/assets/8HP-article/cover-1920.jpg)
+![Cover](https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover.jpg)
 
 
 Ремонт гидротрансформаторов, обычно, – процесс не самый сложный при наличии навыка и необходимых станков: токарного, радиального сварочного и печи для приклеивания фрикционных накладок. В большинстве случаев такой ремонт сводится только к вмешательству в узел механизма блокировки и, в зависимости от конструкции агрегата, - замены изношенных дисков сцепления, или переклейки накладки поршня.
