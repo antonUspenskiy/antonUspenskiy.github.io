@@ -9,7 +9,7 @@ image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover.jp
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
-![Cover](https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover.jpg)
+![Cover](https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover-7G-tronic.jpg)
 
 
 Ремонт гидротрансформаторов, обычно, – процесс не самый сложный при наличии навыка и необходимых станков: токарного, радиального сварочного и печи для приклеивания фрикционных накладок. В большинстве случаев такой ремонт сводится только к вмешательству в узел механизма блокировки и, в зависимости от конструкции агрегата, - замены изношенных дисков сцепления, или переклейки накладки поршня.
