@@ -4,7 +4,7 @@ title: "Гидротрансформатор АКПП 722.9 – Токарный
 date: 2024-11-12
 categories: articles
 excerpt: Краткое описание
-image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover.jpg"
+image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover-7G-tronic.jpg"
 ---
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
