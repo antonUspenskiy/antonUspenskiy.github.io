@@ -96,7 +96,7 @@ body {
 /* Caption text */
 .text {
   color: gray;
-  font-size: 14px;
+  font-size: 12px;
   font-style: italic;
   /* padding: 8px 12px; */
   position: relative; /* Измените на relative */
@@ -108,7 +108,7 @@ body {
 
 /* Figures caption text */
 figure figcaption {
-  font-size: 14px; /* Укажите нужный размер */
+  font-size: 12px; /* Укажите нужный размер */
   font-style: italic;
   color: gray; /* Если нужно изменить цвет */
 }
