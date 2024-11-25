@@ -4,12 +4,12 @@ title: "Что ломается в АКПП Ford?"
 date: 2024-11-21
 categories: articles
 excerpt: Краткое описание
-image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/6F35-Belleville-spring.jpg"
+image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jpg"
 ---
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
-![Cover](https://antonuspenskiy.github.io/assets/Ford-AT-article/6F35-Belleville-spring.jpg)
+![Cover](https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jpg)
 
 За свою долгую жизнь автоконцерн Ford сменил и установил на свои автомобили десятки семейств автоматических коробок передач. Шутка ли – еще больше века тому назад модель Ford T уже комплектовалась полуавтоматической КПП с планетарным редуктором, концептуально напоминающей современные автоматы с гидротрансформатором, гидроблоком и несколькими планетарными рядами.
 С тех пор номенклатура Фордовских АКПП разрослась до нескольких десятков самых разных семейств. Пусть в российских условиях перекрытых поставок Ford-ов, их автоматы в большей своей части представлены агрегатами времен две тысячи десятых годов, а то и до сих пор нулевых, разгуляться все же есть где. Да и, несмотря на закрытие бизнеса в РФ, современные модели все равно появляются на наших дорогах, пусть не самыми ординарными способами и в гораздо меньших масштабах, чем раньше.
