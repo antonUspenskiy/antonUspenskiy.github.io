@@ -191,7 +191,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <div style="display: block; justify-content: space-between;">
   <!-- Первая таблица -->
-  <table border="1" style="border-collapse: collapse; text-align: center;">
+  <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
     <thead>
       <tr>
         <th rowspan="2">Педаль акселератора</th>
@@ -226,7 +226,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
   </table>
 
   <!-- Вторая таблица -->
-  <table border="1" style="border-collapse: collapse; text-align: center;">
+  <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
     <thead>
       <tr>
         <th rowspan="2">Педаль акселератора</th>
