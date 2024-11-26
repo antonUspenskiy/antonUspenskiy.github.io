@@ -138,7 +138,7 @@ figure figcaption {
   background-color: #717171;
 }
 
-  table {
+  /*table {
     width: 100%;
     border-collapse: collapse;
   }
@@ -148,7 +148,7 @@ figure figcaption {
     text-align: center;
     border: 1px solid black;
   }
-/* Fading animation 
+  Fading animation 
 .fade {
   animation-name: fade;
   animation-duration: 0.5s;
