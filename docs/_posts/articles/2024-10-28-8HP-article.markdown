@@ -226,7 +226,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
     </tbody>
   </table>
 
-<h2>ZF 8HP</h2>
+<h2>ZF 6HP</h2>
   <!-- Вторая таблица -->
   <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
     <thead>
