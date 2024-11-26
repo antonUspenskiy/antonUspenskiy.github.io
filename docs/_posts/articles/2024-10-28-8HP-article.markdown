@@ -190,6 +190,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
 Согласно заводским картам переключений, запрограммированным в мехатроник 8HP, при педали газа, нажатой наполовину от ее хода, среднее количество оборотов, при котором произойдет переключение передачи равно 3550 об/м. Изучив же карты 6HP, получим средние обороты в количестве 3800 об/м.
 
 <div style="display: block; justify-content: space-between;">
+  <h2>ZF 8HP</h2>
   <!-- Первая таблица -->
   <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
     <thead>
@@ -225,6 +226,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
     </tbody>
   </table>
 
+<h2>ZF 8HP</h2>
   <!-- Вторая таблица -->
   <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
     <thead>
@@ -238,20 +240,16 @@ ZF 8HP – это семейство восьмиступенчатых тран
         <th>3 -> 4</th>
         <th>4 -> 5</th>
         <th>5 -> 6</th>
-        <th>6 -> 7</th>
-        <th>7 -> 8</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td>50 %</td>
-        <td>448</td>
-        <td>1184</td>
-        <td>1888</td>
-        <td>2592</td>
-        <td>4384</td>
-        <td>5072</td>
-        <td>6096</td>
+        <td>416</td>
+        <td>1232</td>
+        <td>1984</td>
+        <td>2920</td>
+        <td>4752</td>
       </tr>
       <tr>
         <td colspan="1"><b></b></td>
