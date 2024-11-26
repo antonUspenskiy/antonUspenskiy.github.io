@@ -99,11 +99,11 @@ body {
   font-size: 12px;
   font-style: italic;
   /* padding: 8px 12px; */
-  position: relative; /* Измените на relative */
-  bottom: 0; /* Уберите смещение вниз */
-  width: auto; /* Установите ширину на auto, чтобы текст не растягивался на всю ширину */
-  text-align: left; /* Выравнивание текста по левому краю */
-  margin-top: 5px; /* Добавьте отступ сверху для отделения от изображения */
+  /* position: relative;  Измените на relative */
+  /* bottom: 0;  Уберите смещение вниз */
+  /* width: auto;  Установите ширину на auto, чтобы текст не растягивался на всю ширину */
+  /* text-align: left;  Выравнивание текста по левому краю */
+  /* margin-top: 5px;  Добавьте отступ сверху для отделения от изображения */
 }
 
 /* Figures caption text */
