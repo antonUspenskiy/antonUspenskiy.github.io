@@ -192,7 +192,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
 <div style="display: block; justify-content: space-between;">
   <h4>Карта переключений ZF 8HP</h4>
   <!-- Первая таблица -->
-  <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
+  <table border="1" style="border-collapse: collapse; vertical-align: middle;">
     <thead>
       <tr>
         <th rowspan="2">Педаль акселератора</th>
@@ -220,7 +220,7 @@ ZF 8HP – это семейство восьмиступенчатых тран
         <td>4875</td>
       </tr>
       <tr>
-        <td colspan="1"><b></b></td>
+        <td colspan="2"><b></b></td>
         <td colspan="7"><b>Целевое кол-во об/м</b></td>
       </tr>
     </tbody>
@@ -228,11 +228,11 @@ ZF 8HP – это семейство восьмиступенчатых тран
 
 <h4>Карта переключений ZF 6HP</h4>
   <!-- Вторая таблица -->
-  <table border="1" style="border-collapse: collapse; text-align: center; vertical-align: middle;">
+  <table border="1" style="border-collapse: collapse; vertical-align: middle;">
     <thead>
       <tr>
         <th rowspan="2">Педаль акселератора</th>
-        <th colspan="7">Переключения</th>
+        <th colspan="5">Переключения</th>
       </tr>
       <tr>
         <th>1 -> 2</th>
@@ -252,8 +252,8 @@ ZF 8HP – это семейство восьмиступенчатых тран
         <td>5856</td>
       </tr>
       <tr>
-        <td colspan="1"><b></b></td>
-        <td colspan="7"><b>Целевое кол-во об/м</b></td>
+        <td colspan="2"><b></b></td>
+        <td colspan="5"><b>Целевое кол-во об/м</b></td>
       </tr>
     </tbody>
   </table>
