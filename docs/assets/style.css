@@ -138,6 +138,16 @@ figure figcaption {
   background-color: #717171;
 }
 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  th, td {
+    background-color: white;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+  }
 /* Fading animation 
 .fade {
   animation-name: fade;
