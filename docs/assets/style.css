@@ -138,6 +138,61 @@ figure figcaption {
   background-color: #717171;
 }
 
+/* Стиль контейнера для всех статей */
+.articles-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Отступ между блоками статей */
+    padding: 20px; /* Отступы вокруг всех статей */
+}
+
+/* Стиль отдельного блока статьи */
+.post-block {
+    background-color: white; /* Белый фон для контраста */
+    border-radius: 10px; /* Скругленные углы блока */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
+    padding: 20px; /* Внутренний отступ */
+}
+
+/* Стиль заголовка статьи */
+.post-title {
+    font-size: 20px; /* Размер текста заголовка */
+    margin: 0 0 10px 0; /* Отступы вокруг заголовка */
+}
+
+/* Стили для обложки статьи */
+.post-cover {
+    width: 100%; /* Обложка растягивается на ширину блока */
+    height: auto; /* Сохраняется соотношение сторон */
+    border-radius: 8px; /* Скругленные углы изображения */
+    margin: 10px 0; /* Отступ сверху и снизу обложки */
+}
+
+/* Стиль текста описания статьи */
+.post-excerpt {
+    font-size: 16px; /* Размер текста для краткого описания */
+    color: #333; /* Тёмно-серый цвет текста */
+    margin: 10px 0; /* Отступ вокруг описания */
+}
+
+/* Стиль кнопки "Читать далее" */
+.read-more-btn {
+    display: inline-block;
+    background-color: #007BFF; /* Синий фон кнопки */
+    color: white; /* Белый цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    padding: 10px 15px; /* Внутренние отступы */
+    border-radius: 5px; /* Скруглённые углы */
+    font-size: 14px; /* Размер текста кнопки */
+    font-weight: bold; /* Жирный текст */
+    transition: background-color 0.3s ease; /* Плавное изменение фона */
+}
+
+/* Эффект при наведении на кнопку */
+.read-more-btn:hover {
+    background-color: #0056b3; /* Более тёмный синий */
+}
+
   /*table {
     width: 100%;
     border-collapse: collapse;
