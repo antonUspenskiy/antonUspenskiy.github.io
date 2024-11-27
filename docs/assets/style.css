@@ -179,7 +179,7 @@ figure figcaption {
 .read-more-btn {
     display: inline-block;
     background-color: #007BFF; /* Синий фон кнопки */
-    color: white; /* Белый цвет текста */
+    color: white; !important;/* Белый цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
     padding: 10px 15px; /* Внутренние отступы */
     border-radius: 5px; /* Скруглённые углы */
@@ -191,6 +191,7 @@ figure figcaption {
 /* Эффект при наведении на кнопку */
 .read-more-btn:hover {
     background-color: #0056b3; /* Более тёмный синий */
+    text-decoration: none; /* Убираем подчеркивание */
 }
 
   /*table {
