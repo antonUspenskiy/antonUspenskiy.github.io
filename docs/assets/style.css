@@ -98,7 +98,7 @@ body {
   color: gray; /* Цвет текста */
   font-size: 12px; /* Размер текста */
   font-style: italic; /* Курсивный текст */
-  text-align: center; /* Центрируем текст */
+  /* text-align: center; /* Центрируем текст */
   margin-top: 5px; /* Отступ сверху */
   margin-bottom: 20px; /* Добавляем отступ снизу для разделения с основным текстом */
   display: block; /* Гарантируем блочный элемент */
