@@ -93,17 +93,15 @@ body {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
+/* Caption text for carousel */
 .text {
-  color: gray;
-  font-size: 12px;
-  font-style: italic;
-  /* padding: 8px 12px; */
-  /* position: relative;  Измените на relative */
-  /* bottom: 0;  Уберите смещение вниз */
-  /* width: auto;  Установите ширину на auto, чтобы текст не растягивался на всю ширину */
-  /* text-align: left;  Выравнивание текста по левому краю */
-  /* margin-top: 5px;  Добавьте отступ сверху для отделения от изображения */
+  color: gray; /* Цвет текста */
+  font-size: 12px; /* Размер текста */
+  font-style: italic; /* Курсивный текст */
+  text-align: center; /* Центрируем текст */
+  margin-top: 5px; /* Отступ сверху */
+  margin-bottom: 20px; /* Добавляем отступ снизу для разделения с основным текстом */
+  display: block; /* Гарантируем блочный элемент */
 }
 
 /* Figures caption text */
