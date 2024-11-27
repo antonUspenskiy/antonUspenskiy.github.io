@@ -4,6 +4,8 @@ title: Статьи
 permalink: /articles/
 ---
 
+<link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
+
 <h1>Статьи</h1>
 <div class="articles-page">
   {% for post in site.categories.articles %}
