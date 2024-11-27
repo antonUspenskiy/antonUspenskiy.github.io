@@ -42,6 +42,7 @@ body {
 /* Стиль кнопки при наведении */
 .button:hover {
     transform: scale(1.05); /* Увеличение при наведении */
+     text-decoration: none;
 }
 
 * {
