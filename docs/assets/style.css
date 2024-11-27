@@ -178,7 +178,7 @@ figure figcaption {
 /* Стиль кнопки "Читать далее" */
 .read-more-btn {
     display: inline-block;
-    background-color: #00bfff; /* Синий фон кнопки */
+    background-color: #007BFF; /* Синий фон кнопки */
     color: white !important;/* Белый цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
     padding: 10px 15px; /* Внутренние отступы */
@@ -190,7 +190,7 @@ figure figcaption {
 
 /* Эффект при наведении на кнопку */
 .read-more-btn:hover {
-    background-color: #191970; /* Более тёмный синий */
+    background-color: #0056b3; /* Более тёмный синий */
     color: white !important;/* Белый цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
 }
