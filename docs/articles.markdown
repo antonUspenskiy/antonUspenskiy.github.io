@@ -5,10 +5,17 @@ permalink: /articles/
 ---
 
 <h1>Статьи</h1>
-{% for post in site.categories.articles %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-{% if post.image %}
-  ![{{ post.title }} cover image]({{ post.image }}){: style="width: 800px; height: auto;"}
-{% endif %}
-  <p>{{ post.excerpt }}</p>
-{% endfor %}
+<div class="articles-page">
+  {% for post in site.categories.articles %}
+    <div class="post-block">
+      <h2 class="post-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }} cover image" class="post-cover">
+      {% endif %}
+      <p class="post-excerpt">{{ post.excerpt }}</p>
+      <a href="{{ post.url }}" class="read-more-btn">Читать далее</a>
+    </div>
+  {% endfor %}
+</div>
