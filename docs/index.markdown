@@ -5,7 +5,9 @@ layout: default
 title: Главная страница
 permalink: /
 ---
-<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+
+<link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
+<!--<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}"-->
 <div class="button-container">
     <a href="/articles/" class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
         <h2 style="color: white; text-decoration: none;">Статьи</h2>
