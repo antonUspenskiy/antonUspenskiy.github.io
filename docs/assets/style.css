@@ -84,42 +84,50 @@ body {
 .button-container {
     display: flex; /* Горизонтальное размещение */
     justify-content: center; /* Центрирование кнопок */
-    align-items: center; /* Выравнивание кнопок по центру по вертикали */
+    align-items: center; /* Выравнивание кнопок по вертикали */
     flex-wrap: wrap; /* Перенос кнопок на следующую строку при нехватке места */
+    gap: 10px; /* Отступ между кнопками */
 }
 
 /* Стиль кнопок */
 .button {
     display: flex; /* Flexbox для содержимого кнопки */
-    justify-content: center; /* Центрирование текста по горизонтали */
-    align-items: center; /* Центрирование текста по вертикали */
+    flex-direction: column; /* Размещение текста в колонку (заголовок сверху, описание снизу) */
+    justify-content: space-between; /* Выравнивание текста по вертикали */
+    align-items: flex-start; /* Выравнивание по левому краю */
     width: 200px; /* Ширина кнопки */
     height: 300px; /* Высота кнопки */
     margin: 10px; /* Отступ между кнопками */
-    background-size: cover; /* Полное покрытие фоном */
-    font-size: 24px; /* Размер текста */
-    color: white; /* Цвет текста */
+    background-color: white; /* Белый фон */
+    border: 2px solid black; /* Черная граница */
+    font-size: 20px; /* Размер текста */
+    color: black; /* Черный цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
-    border: none; /* Без рамки */
     transition: transform 0.2s; /* Плавный переход при наведении */
-    border-radius: 10px; /* Скругление углов */
+    border-radius: 0; /* Острые углы */
+    padding: 10px; /* Отступ внутри кнопки */
+    box-sizing: border-box; /* Включаем отступы в расчет ширины/высоты */
+    background-size: cover; /* Сделаем фон на всю кнопку */
+    background-position: center; /* Центрируем фоновое изображение */
 }
 
-/* Стиль ссылки внутри кнопки */
-.button a {
-    color: white; /* Цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
-    display: flex; /* Flexbox для текстового содержимого */
-    justify-content: center; /* Центрируем текст по горизонтали */
-    align-items: center; /* Центрируем текст по вертикали */
-    width: 100%; /* Ширина ссылки равна ширине кнопки */
-    height: 100%; /* Высота ссылки равна высоте кнопки */
+/* Заголовок в кнопке (сверху) */
+.button h2 {
+    font-size: 24px; /* Размер шрифта заголовка */
+    margin: 0; /* Убираем отступы */
+    color: black; /* Черный цвет для заголовка */
+}
+
+/* Описание в кнопке (снизу) */
+.button p {
+    font-size: 14px; /* Меньший размер шрифта для описания */
+    margin: 0; /* Убираем отступы */
 }
 
 /* Стиль кнопки при наведении */
 .button:hover {
     transform: scale(1.05); /* Увеличение при наведении */
-     text-decoration: none;
+    text-decoration: none;
 }
 
 * {
