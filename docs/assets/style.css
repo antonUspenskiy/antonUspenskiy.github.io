@@ -60,7 +60,8 @@ body {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
     transition: transform 0.3s ease;
-    padding-bottom: 100px;
+    margin-bottom: auto; /* Установите автоматический отступ снизу */
+    margin-top: 100px; /* Отступ сверху */
 }
 
 .print-button:hover {
