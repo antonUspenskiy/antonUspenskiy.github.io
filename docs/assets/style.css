@@ -31,13 +31,15 @@ body {
 }
 
 .intro-text h1 {
-    font-family: 'TT Travels Next Trl 800', sans-serif;
+    font-family: 'TT Travels Next Trl', sans-serif;
+    font-weight: 800;
     font-size: 36px; /* Размер шрифта для имени */
     margin: 0; /* Убираем отступы */
 }
 
 .intro-text p {
     font-family: 'TT Travels Next Trl 500', sans-serif;
+    font-weight: 500;
     font-size: 18px; /* Размер шрифта для описания */
     margin: 10px 0 0 0; /* Отступ сверху для параграфа */
 }
