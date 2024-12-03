@@ -249,6 +249,7 @@ figure figcaption {
     flex-direction: column;
     gap: 20px; /* Отступ между блоками статей */
     padding: 20px; /* Отступы вокруг всех статей */
+    margin: 0 auto;
 }
 
 /* Стиль отдельного блока статьи */
