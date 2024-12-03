@@ -95,7 +95,7 @@ body {
     flex-direction: column; /* Размещение текста в колонку (заголовок сверху, описание снизу) */
     justify-content: space-between; /* Выравнивание текста по вертикали */
     align-items: flex-start; /* Выравнивание по левому краю */
-    width: 30%; /* Ширина кнопки 200 */
+    width: 25%; /* Ширина кнопки 200 */
     height: 300px; /* Высота кнопки */
     margin: 4px; /* Отступ между кнопками 10*/
     background-color: white; /* Белый фон */
