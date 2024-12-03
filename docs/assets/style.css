@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif; /* Шрифт для текста */
 }
 
+.container {
+    max-width: 1200px; /* Максимальная ширина области контента */
+    margin: 0 auto; /* Центрирование */
+    padding: 0 20px; /* Отступы по бокам */
+}
+
 /* Стиль контейнера кнопок */
 .button-container {
     display: flex; /* Горизонтальное размещение */
