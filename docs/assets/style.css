@@ -25,7 +25,7 @@ body {
 .intro-text {
     background-color: blue;
     color: white;
-    padding: 60px 40px;
+    padding: 100px 40px;
     flex: 1; /* Гибкий размер */
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ body {
     text-decoration: none;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 70%;
     height: 40px;
     font-size: 18px; /* Размер шрифта заголовка */
