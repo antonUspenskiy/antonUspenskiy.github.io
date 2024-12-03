@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/tt-travels-next-trl');
+
 body {
     background-color: #f0f0f0; /* Цвет фона страницы */
     font-family: Arial, sans-serif; /* Шрифт для текста */
@@ -29,11 +31,13 @@ body {
 }
 
 .intro-text h1 {
+    font-family: 'TT Travels Next Trl 800', sans-serif;
     font-size: 36px; /* Размер шрифта для имени */
     margin: 0; /* Убираем отступы */
 }
 
 .intro-text p {
+    font-family: 'TT Travels Next Trl 500', sans-serif;
     font-size: 18px; /* Размер шрифта для описания */
     margin: 10px 0 0 0; /* Отступ сверху для параграфа */
 }
