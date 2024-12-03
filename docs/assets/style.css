@@ -139,6 +139,16 @@ body {
     color: white;
 }
 
+.button:hover h2 {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover p {
+    color: white;
+    text-decoration: none;
+}
+
 * {
   box-sizing: border-box;
 }
