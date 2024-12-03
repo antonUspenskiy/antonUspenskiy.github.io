@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: stretch;
     margin-bottom: 40px;
-    width: 80%; /* Убираем ограничения ширины */
+    width: 78%; /* Убираем ограничения ширины */
     /*justify-content: center*/
     margin: 0 auto;
 }
@@ -97,7 +97,7 @@ body {
     flex-direction: column; /* Размещение текста в колонку (заголовок сверху, описание снизу) */
     justify-content: space-between; /* Выравнивание текста по вертикали */
     align-items: flex-start; /* Выравнивание по левому краю */
-    width: 25%; /* Ширина кнопки 200 */
+    width: 26%; /* Ширина кнопки 200 */
     height: 300px; /* Высота кнопки */
     margin: 4px; /* Отступ между кнопками 10*/
     background-color: white; /* Белый фон */
