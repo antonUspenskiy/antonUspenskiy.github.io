@@ -12,6 +12,7 @@ body {
 
 /* Верхний блок с информацией */
 .intro-section {
+    justify-content: center;
     display: flex;
     align-items: stretch;
     margin-bottom: 40px;
