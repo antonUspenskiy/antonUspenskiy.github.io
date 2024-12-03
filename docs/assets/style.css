@@ -25,7 +25,7 @@ body {
 .intro-text {
     background-color: blue;
     color: white;
-    padding: 40px;
+    padding: 60px 40px;
     flex: 1; /* Гибкий размер */
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 50%;
+    max-width: 70%;
     height: 40px;
     font-size: 18px; /* Размер шрифта заголовка */
     line-height: 1;
@@ -62,7 +62,7 @@ body {
     font-weight: 500;
     transition: transform 0.3s ease;
     margin-bottom: auto; /* Установите автоматический отступ снизу */
-    margin-top: 100px; /* Отступ сверху */
+    margin-top: 180px; /* Отступ сверху */
 }
 
 .print-button:hover {
