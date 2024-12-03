@@ -46,6 +46,19 @@ body {
     margin: 5px 0 0 0; /* Отступ сверху для параграфа */
 }
 
+.print-button {
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+    height: 80px;
+    font-size: 28px; /* Размер шрифта заголовка */
+    font-family: 'TT Travels Next Trl', sans-serif;
+    font-weight: 500;
+}
+
 .intro-image {
     flex: 3; /* Гибкий размер изображения */
 }
@@ -62,24 +75,6 @@ body {
     width: 100%; /* Убираем ограничения ширины */
     padding: 0 20px; /* Небольшие отступы по бокам */
     text-align: center; /* Центрируем текст */
-}
-
-.header-section {
-    display: flex; /* Делаем его гибким контейнером */
-    align-items: stretch; /* Высота всех дочерних элементов равна */
-    width: 100%; /* Растягиваем на всю ширину */
-}
-
-.header-section .column {
-    flex: 1; /* Занимает равное место */
-    padding: 20px; /* Внутренние отступы */
-}
-
-.header-section img {
-    flex: 2; /* Фотография занимает больше места */
-    width: 100%; /* Растягивается на весь доступный размер */
-    height: auto; /* Сохраняет пропорции */
-    object-fit: cover; /* Обрезка, если изображение больше блока */
 }
 
 /* Стиль контейнера кнопок */
