@@ -27,13 +27,16 @@ permalink: /
 </div>
 
 <div class="button-container">
-    <a href="/articles/" class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
+    <a href="/articles/" class="button">
         <h2>Статьи</h2>
+        <p>Описание для раздела статей, где представлены различные публикации и материалы.</p>
     </a>
-    <a href="/reports/" class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
+    <a href="/reports/" class="button">
         <h2>Отчеты</h2>
+        <p>Здесь собраны подробные отчеты по различным техническим вопросам и исследованиям.</p>
     </a>
-    <a href="/other/" class="button" style="background-image: url('{{ 'https://antonuspenskiy.github.io/assets/cover-1920.jpg' | relative_url }}');">
+    <a href="/other/" class="button">
         <h2>Другое</h2>
+        <p>Раздел с прочими материалами, которые не попадают в категории статей и отчетов.</p>
     </a>
 </div>
