@@ -52,9 +52,10 @@ body {
     color: blue;
     text-decoration: none;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     max-width: 50%;
-    height: 60px;
+    height: 40px;
     font-size: 18px; /* Размер шрифта заголовка */
     line-height: 1;
     font-family: 'TT Travels Next Trl', sans-serif;
@@ -67,6 +68,7 @@ body {
 .print-button:hover {
     transform: scale(1.1);
     text-decoration: none;
+    color: blue;
 }
     
 
