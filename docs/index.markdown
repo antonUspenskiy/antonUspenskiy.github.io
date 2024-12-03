@@ -7,7 +7,7 @@ permalink: /
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
 <!-- Верхний блок с информацией -->
-<div class="intro-section" style="display: flex; align-items: stretch; margin-bottom: 40px; max-width: 1200px; margin: 0 auto;">
+<div class="intro-section" style="display: flex; align-items: stretch; margin-bottom: 40px; width: 100%; margin: 0 auto;">
     <!-- Левая колонка -->
     <div class="intro-text" style="background-color: #2c3e50; color: white; padding: 40px; width: 33%; display: flex; flex-direction: column; justify-content: space-between;">
         <div>
