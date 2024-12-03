@@ -35,6 +35,7 @@ body {
 .intro-text h1 {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 800;
+    line-height: 1;
     font-size: 70px; /* Размер шрифта для имени */
     margin: 0; /* Убираем отступы */
 }
@@ -53,11 +54,20 @@ body {
     display: flex;
     justify-content: space-between;
     max-width: 50%;
-    height: 80px;
-    font-size: 28px; /* Размер шрифта заголовка */
+    height: 60px;
+    font-size: 18px; /* Размер шрифта заголовка */
+    line-height: 1;
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
+    transition: transform 0.3s ease;
+    padding-bottom: 100px;
 }
+
+.print-button:hover {
+    transform: scale(1.1);
+    text-decoration: none;
+}
+    
 
 .intro-image {
     flex: 3; /* Гибкий размер изображения */
