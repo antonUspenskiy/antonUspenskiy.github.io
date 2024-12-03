@@ -95,11 +95,11 @@ body {
     flex-direction: column; /* Размещение текста в колонку (заголовок сверху, описание снизу) */
     justify-content: space-between; /* Выравнивание текста по вертикали */
     align-items: flex-start; /* Выравнивание по левому краю */
-    width: 200px; /* Ширина кнопки */
+    width: 30%; /* Ширина кнопки 200 */
     height: 300px; /* Высота кнопки */
     margin: 10px; /* Отступ между кнопками */
     background-color: white; /* Белый фон */
-    border: 2px solid black; /* Черная граница */
+    border: 6px solid black; /* Черная граница */
     font-size: 20px; /* Размер текста */
     color: black; /* Черный цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
