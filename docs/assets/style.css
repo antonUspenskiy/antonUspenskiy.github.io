@@ -17,12 +17,12 @@ body {
     display: flex;
     align-items: stretch;
     margin-bottom: 40px;
-    width: 100%; /* Убираем ограничения ширины */
+    width: 80%; /* Убираем ограничения ширины */
 }
 
 .intro-text {
-    background-color: #white;
-    color: black;
+    background-color: white;
+    color: blue;
     padding: 40px;
     flex: 1; /* Гибкий размер */
     display: flex;
@@ -33,7 +33,7 @@ body {
 .intro-text h1 {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 800;
-    font-size: 58px; /* Размер шрифта для имени */
+    font-size: 70px; /* Размер шрифта для имени */
     margin: 0; /* Убираем отступы */
 }
 
@@ -86,7 +86,7 @@ body {
     justify-content: center; /* Центрирование кнопок */
     align-items: center; /* Выравнивание кнопок по вертикали */
     flex-wrap: wrap; /* Перенос кнопок на следующую строку при нехватке места */
-    gap: 10px; /* Отступ между кнопками */
+    gap: 4px; /* Отступ между кнопками 10*/
 }
 
 /* Стиль кнопок */
@@ -97,13 +97,13 @@ body {
     align-items: flex-start; /* Выравнивание по левому краю */
     width: 30%; /* Ширина кнопки 200 */
     height: 300px; /* Высота кнопки */
-    margin: 10px; /* Отступ между кнопками */
+    margin: 4px; /* Отступ между кнопками 10*/
     background-color: white; /* Белый фон */
-    border: 6px solid black; /* Черная граница */
+    border: 4px solid black; /* Черная граница */
     font-size: 20px; /* Размер текста */
-    color: black; /* Черный цвет текста */
+    color: blue; /* Черный цвет текста */
     text-decoration: none; /* Убираем подчеркивание */
-    transition: transform 0.2s; /* Плавный переход при наведении */
+    /*transition: transform 0.2s; /* Плавный переход при наведении */
     border-radius: 0; /* Острые углы */
     padding: 10px; /* Отступ внутри кнопки */
     box-sizing: border-box; /* Включаем отступы в расчет ширины/высоты */
@@ -113,21 +113,29 @@ body {
 
 /* Заголовок в кнопке (сверху) */
 .button h2 {
-    font-size: 24px; /* Размер шрифта заголовка */
+    font-size: 42px; /* Размер шрифта заголовка */
+    font-family: 'TT Travels Next Trl', sans-serif;
+    font-weight: 800;
     margin: 0; /* Убираем отступы */
-    color: black; /* Черный цвет для заголовка */
+    color: blue; /* Черный цвет для заголовка */
 }
 
 /* Описание в кнопке (снизу) */
 .button p {
-    font-size: 14px; /* Меньший размер шрифта для описания */
+    font-size: 21px; /* Меньший размер шрифта для описания */
+    font-family: 'TT Travels Next Trl', sans-serif;
+    font-weight: 500;
     margin: 0; /* Убираем отступы */
+    color: blue;
 }
 
 /* Стиль кнопки при наведении */
 .button:hover {
-    transform: scale(1.05); /* Увеличение при наведении */
+    background-color: blue;
+    border: 4px solid blue;
+    /*transform: scale(1.05); /* Увеличение при наведении */
     text-decoration: none;
+    color: white;
 }
 
 * {
