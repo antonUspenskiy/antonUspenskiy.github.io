@@ -244,6 +244,7 @@ figure figcaption {
 
 /* Стиль контейнера для всех статей */
 .articles-page {
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px; /* Отступ между блоками статей */
