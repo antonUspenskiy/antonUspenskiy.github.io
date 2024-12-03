@@ -34,7 +34,7 @@ body {
 
 .intro-image img {
     width: 200%;
-    height: 200%;
+    height: 100%;
     object-fit: cover;
 }
 
