@@ -44,7 +44,7 @@ body {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
     font-size: 24px; /* Размер шрифта для описания */
-    margin: 5px 0 0 0; /* Отступ сверху для параграфа */
+    margin: 20px 0 0 0; /* Отступ сверху для параграфа */
 }
 
 .print-button {
@@ -54,7 +54,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 70%;
+    max-width: 60%;
     height: 40px;
     font-size: 18px; /* Размер шрифта заголовка */
     line-height: 1;
@@ -62,7 +62,7 @@ body {
     font-weight: 500;
     transition: transform 0.3s ease;
     margin-bottom: auto; /* Установите автоматический отступ снизу */
-    margin-top: 180px; /* Отступ сверху */
+    margin-top: 275px; /* Отступ сверху */
 }
 
 .print-button:hover {
@@ -103,7 +103,7 @@ body {
 .button {
     display: flex; /* Flexbox для содержимого кнопки */
     flex-direction: column; /* Размещение текста в колонку (заголовок сверху, описание снизу) */
-    justify-content: space-between; /* Выравнивание текста по вертикали */
+    /*justify-content: space-between; /* Выравнивание текста по вертикали */
     align-items: flex-start; /* Выравнивание по левому краю */
     width: 26%; /* Ширина кнопки 200 */
     height: 300px; /* Высота кнопки */
@@ -115,7 +115,7 @@ body {
     text-decoration: none; /* Убираем подчеркивание */
     /*transition: transform 0.2s; /* Плавный переход при наведении */
     border-radius: 0; /* Острые углы */
-    padding: 10px; /* Отступ внутри кнопки */
+    padding:  10px 20px; /* Отступ внутри кнопки */
     box-sizing: border-box; /* Включаем отступы в расчет ширины/высоты */
     background-size: cover; /* Сделаем фон на всю кнопку */
     background-position: center; /* Центрируем фоновое изображение */
@@ -135,7 +135,7 @@ body {
     font-size: 21px; /* Меньший размер шрифта для описания */
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
-    margin: 0; /* Убираем отступы */
+    margin-top: 30px; /* Убираем отступы */
     color: blue;
 }
 
