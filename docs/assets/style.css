@@ -315,24 +315,3 @@ figure figcaption {
     max-width: 50%;
     margin: 0 auto;
 }
-
-  /*table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  th, td {
-    background-color: white;
-    color: black;
-    text-align: center;
-    border: 1px solid black;
-  }
-  Fading animation 
-.fade {
-  animation-name: fade;
-  animation-duration: 0.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-} */
