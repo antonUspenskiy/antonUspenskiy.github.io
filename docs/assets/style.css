@@ -4,11 +4,12 @@ body {
     background-color: #f0f0f0; /* Цвет фона страницы */
     font-family: Arial, sans-serif; /* Шрифт для текста */
     margin: 0;
+    font-size: 1rem; /* Размер шрифта относительно корня */
 }
 
 .container {
     width: 100%; /* Ширина на весь экран */
-    padding: 0 20px; /* Отступы по бокам */
+    padding: 0 2vw; /* Отступы по бокам с использованием vw */
     margin: 0; /* Убираем центрирование */
 }
 
@@ -16,37 +17,43 @@ body {
 .intro-section {
     display: flex;
     align-items: stretch;
-    margin-bottom: 40px;
-    width: 78%; /* Убираем ограничения ширины */
-    /*justify-content: center*/
+    margin-bottom: 2vw;
+    width: 90%; /* Общая ширина */
     margin: 0 auto;
+    flex-wrap: nowrap; /* Без переноса строк */
 }
 
+/* Левая колонка (текст) */
 .intro-text {
     background-color: blue;
     color: white;
-    padding: 100px 40px;
-    flex: 1; /* Гибкий размер */
+    padding: 5%; /* Отступы */
+    flex-basis: 30%; /* Фиксируем ширину */
+    max-width: 30%; /* Максимальная ширина */
+    min-width: 300px; /* Минимальная ширина */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* Заголовок */
 .intro-text h1 {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 800;
-    line-height: 1;
-    font-size: 70px; /* Размер шрифта для имени */
-    margin: 0; /* Убираем отступы */
+    line-height: 1.2;
+    font-size: 3vw;
+    margin: 0;
 }
 
+/* Описание */
 .intro-text p {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
-    font-size: 24px; /* Размер шрифта для описания */
-    margin: 20px 0 0 0; /* Отступ сверху для параграфа */
+    font-size: 1.5vw;
+    margin: 1vw 0 0 0;
 }
 
+/* Кнопка */
 .print-button {
     background-color: white;
     color: blue;
@@ -54,15 +61,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 60%;
-    height: 40px;
-    font-size: 18px; /* Размер шрифта заголовка */
-    line-height: 1;
+    width: auto; /* Убираем ограничение по ширине */
+    max-width: 60%; /* Предотвращаем выход за пределы родителя */
+    padding: 0.5em 1em; /* Добавляем гибкость размеров */
+    height: auto; /* Убираем фиксированную высоту */
+    font-size: 1vw;
+    line-height: 1.2;
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
     transition: transform 0.3s ease;
-    margin-bottom: auto; /* Установите автоматический отступ снизу */
-    margin-top: 275px; /* Отступ сверху */
+    margin-top: auto;
 }
 
 .print-button:hover {
@@ -70,23 +78,29 @@ body {
     text-decoration: none;
     color: blue;
 }
-    
 
+/* Правая колонка (изображение) */
 .intro-image {
-    flex: 3; /* Гибкий размер изображения */
+    flex-basis: 70%; /* Фиксируем ширину */
+    max-width: 70%;
+    min-width: 300px; /* Минимальная ширина */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+/* Изображение */
 .intro-image img {
     width: 100%;
-    height: 100%;
+    height: auto; /* Сохраняем пропорции */
     object-fit: cover;
 }
 
 /* Приветственный текст */
 .welcome-text {
-    margin-bottom: 40px;
+    margin-bottom: 4vw; /* Отступ снизу с использованием vw */
     width: 100%; /* Убираем ограничения ширины */
-    padding: 0 20px; /* Небольшие отступы по бокам */
+    padding: 0 2vw; /* Небольшие отступы по бокам */
     text-align: center; /* Центрируем текст */
 }
 
@@ -96,46 +110,45 @@ body {
     justify-content: center; /* Центрирование кнопок */
     align-items: center; /* Выравнивание кнопок по вертикали */
     flex-wrap: wrap; /* Перенос кнопок на следующую строку при нехватке места */
-    gap: 4px; /* Отступ между кнопками 10*/
+    gap: 0.5vw; /* Отступ между кнопками с использованием vw */
+    padding: 1vw;
 }
 
 /* Стиль кнопок */
 .button {
     display: flex; /* Flexbox для содержимого кнопки */
-    flex-direction: column; /* Размещение текста в колонку (заголовок сверху, описание снизу) */
-    /*justify-content: space-between; /* Выравнивание текста по вертикали */
+    flex-direction: column; /* Размещение текста в колонку */
     align-items: flex-start; /* Выравнивание по левому краю */
-    width: 26%; /* Ширина кнопки 200 */
-    height: 300px; /* Высота кнопки */
-    margin: 4px; /* Отступ между кнопками 10*/
+    width: 30%; /* Ширина кнопки 26% */
+    height: 20vw; /* Высота кнопки с использованием vw */
+    /*margin: 0.5vw; /* Отступ между кнопками */
     background-color: white; /* Белый фон */
-    border: 4px solid blue; /* Черная граница */
-    font-size: 20px; /* Размер текста */
-    color: blue; /* Черный цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
-    /*transition: transform 0.2s; /* Плавный переход при наведении */
-    border-radius: 0; /* Острые углы */
-    padding:  10px 20px; /* Отступ внутри кнопки */
-    box-sizing: border-box; /* Включаем отступы в расчет ширины/высоты */
-    background-size: cover; /* Сделаем фон на всю кнопку */
-    background-position: center; /* Центрируем фоновое изображение */
+    border: 4px solid blue; /* Граница */
+    font-size: 2vw; /* Размер шрифта */
+    color: blue;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 2vw; /* Отступ внутри кнопки с использованием vw */
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Заголовок в кнопке (сверху) */
 .button h2 {
-    font-size: 42px; /* Размер шрифта заголовка */
+    font-size: 3vw; /* Размер шрифта для заголовка */
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 800;
-    margin: 0; /* Убираем отступы */
-    color: blue; /* Черный цвет для заголовка */
+    margin: 0;
+    color: blue;
 }
 
 /* Описание в кнопке (снизу) */
 .button p {
-    font-size: 21px; /* Меньший размер шрифта для описания */
+    font-size: 1.2vw; /* Меньший размер шрифта для описания */
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
-    margin-top: 30px; /* Убираем отступы */
+    margin-top:2vw;
     color: blue;
 }
 
@@ -143,7 +156,6 @@ body {
 .button:hover {
     background-color: blue;
     border: 4px solid blue;
-    /*transform: scale(1.05); /* Увеличение при наведении */
     text-decoration: none;
     color: white;
 }
@@ -158,13 +170,8 @@ body {
     text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
-}
-
 /* Slideshow container */
 .slideshow-container {
-  /*max-width: 1000px;*/
   position: relative;
   margin: auto;
 }
@@ -179,13 +186,10 @@ body {
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
+  padding: 2vw;
   color: white;
   font-weight: bold;
-  font-size: 18px;
-  /*transition: 0.6s ease;*/
+  font-size: 2vw;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -204,32 +208,29 @@ body {
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text for carousel */
 .text {
-  color: gray; /* Цвет текста */
-  font-size: 12px; /* Размер текста */
-  font-style: italic; /* Курсивный текст */
-  /* text-align: center; /* Центрируем текст */
-  margin-top: 5px; /* Отступ сверху */
-  /*margin-bottom: 20px; /* Добавляем отступ снизу для разделения с основным текстом */
-  display: block; /* Гарантируем блочный элемент */
+  color: gray;
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 1vw;
 }
 
 /* Figures caption text */
 figure figcaption {
-  font-size: 12px; /* Укажите нужный размер */
+  font-size: 1rem;
   font-style: italic;
-  color: gray; /* Если нужно изменить цвет */
+  color: gray;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 1rem;
+  padding: 0.5vw;
   position: absolute;
   top: 0;
 }
@@ -237,10 +238,10 @@ figure figcaption {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 10px;
-  width: 10px;
+  height: 1vw;
+  width: 1vw;
   margin: 0 2px;
-  margin-bottom: 20px;
+  margin-bottom: 2vw;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -251,67 +252,59 @@ figure figcaption {
   background-color: #717171;
 }
 
-/* Стиль контейнера для всех статей */
 .articles-page {
-    width: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Отступ между блоками статей */
-    padding: 20px; /* Отступы вокруг всех статей */
+    gap: 4vw;
+    padding: 4vw;
     margin: 0 auto;
 }
 
-/* Стиль отдельного блока статьи */
 .post-block {
-    background-color: white; /* Белый фон для контраста */
-    border-radius: 10px; /* Скругленные углы блока */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень для объема */
-    padding: 20px; /* Внутренний отступ */
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 4vw;
 }
 
-/* Стиль заголовка статьи */
 .post-title {
-    font-size: 20px; /* Размер текста заголовка */
-    margin: 0 0 10px 0; /* Отступы вокруг заголовка */
+    font-size: 2vw;
+    margin: 0 0 2vw 0;
 }
 
-/* Стили для обложки статьи */
 .post-cover {
-    width: 100%; /* Обложка растягивается на ширину блока */
-    height: auto; /* Сохраняется соотношение сторон */
-    border-radius: 8px; /* Скругленные углы изображения */
-    margin: 10px 0; /* Отступ сверху и снизу обложки */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 2vw 0;
 }
 
-/* Стиль текста описания статьи */
 .post-excerpt {
-    font-size: 16px; /* Размер текста для краткого описания */
-    color: #333; /* Тёмно-серый цвет текста */
-    margin: 10px 0; /* Отступ вокруг описания */
+    font-size: 1.6vw;
+    color: #333;
+    margin: 2vw 0;
 }
 
-/* Стиль кнопки "Читать далее" */
 .read-more-btn {
     display: inline-block;
-    background-color: #007BFF; /* Синий фон кнопки */
-    color: white !important;/* Белый цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
-    padding: 10px 15px; /* Внутренние отступы */
-    border-radius: 5px; /* Скруглённые углы */
-    font-size: 14px; /* Размер текста кнопки */
-    font-weight: bold; /* Жирный текст */
-    transition: background-color 0.3s ease; /* Плавное изменение фона */
+    background-color: #007BFF;
+    color: white !important;
+    text-decoration: none;
+    padding: 2vw 3vw;
+    border-radius: 5px;
+    font-size: 1.4vw;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
 }
 
-/* Эффект при наведении на кнопку */
 .read-more-btn:hover {
-    background-color: #0056b3; /* Более тёмный синий */
-    color: white !important;/* Белый цвет текста */
-    text-decoration: none; /* Убираем подчеркивание */
+    background-color: #0056b3;
+    color: white !important;
+    text-decoration: none;
 }
-
 
 .article-container {
-    max-width: 50%;
+    max-width: 90%;
     margin: 0 auto;
 }
