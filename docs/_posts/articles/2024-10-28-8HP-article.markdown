@@ -52,9 +52,9 @@ image: "https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg"
 
 <!-- Индикаторы для первой карусели -->
 <div style="text-align:center">
-  <span class="dot0" onclick="currentSlide(1, 0)"></span>
-  <span class="dot0" onclick="currentSlide(2, 0)"></span>
-  <span class="dot0" onclick="currentSlide(3, 0)"></span>
+  <span class="dot" onclick="currentSlide(1, 0)"></span>
+  <span class="dot" onclick="currentSlide(2, 0)"></span>
+  <span class="dot" onclick="currentSlide(3, 0)"></span>
 </div>
 
 <p>Ломается планетарный редуктор P3 - изнашивается посадочное место осей его шестерен-сателлитов, что приводит к их люфтам и перекосам. Далее, при прогрессии перекоса, эти сателлиты вырывает вместе с кусками корпуса редуктора. Отдельного упоминания стоит силуминовое основание магнитного триггера, фиксирующееся в корпусе редуктора P2. Иногда оно обрывается, приводя к невозможности электронного блока мехатроника считывать входные обороты АКПП, и вынуждает ЭБУ ввести коробку в аварийный режим работы.</p>
@@ -86,9 +86,9 @@ image: "https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg"
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot1" onclick="currentSlide(1, 1)"></span>
-  <span class="dot1" onclick="currentSlide(2, 1)"></span>
-  <span class="dot1" onclick="currentSlide(3, 1)"></span>
+  <span class="dot" onclick="currentSlide(1, 1)"></span>
+  <span class="dot" onclick="currentSlide(2, 1)"></span>
+  <span class="dot" onclick="currentSlide(3, 1)"></span>
 </div>
 
 <p>Также стал более склонен к износу масляный насос: если в поколении 6HP он был представлен крепким насосом шестеренчатого типа (кои применяются и в моторах, и на всех остальных АКПП), то в новом поколении он был заменен на более компактный лопастной. Такое оригинальное решение, прямо скажем, очень сомнительно - лопастные насосы - это удел небольших и не критично важных узлов вроде гидроусилителя руля, а в нашем случае ему приходится прокачивать десяток литров густого масла через огромный агрегат. Собственно, плод такого инженерного решения - это износ статора насоса; лопасти ротора, свободно двигающиеся в нем вперед-назад, под действием центробежной силы стремятся прижаться к стенкам статора. Пройдя его длинный отрезок, лопасти встречаются с достаточно крутым углом, ведущим к вершине камеры - на этой перекладке они получают простор для движения вперед и слегка бьют по стенке статора (при отдаленном рассмотрении этот процесс больше похож на вибрацию). Так появляется реброобразная выработка, приводящая к пульсациям давления масла в системе, и если на механическую часть коробки она никак не влияет, то на тонко настроенную гидравлику - вполне.</p>
@@ -124,8 +124,8 @@ image: "https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg"
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot2" onclick="currentSlide(1, 2)"></span>
-  <span class="dot2" onclick="currentSlide(2, 2)"></span>
+  <span class="dot" onclick="currentSlide(1, 2)"></span>
+  <span class="dot" onclick="currentSlide(2, 2)"></span>
 </div>
 
 <p>Некоторые слабые места новому гидроблоку достались в наследство от предыдущего поколения: во-первых, резиновые дорожки сепараторной пластины, изолирующие каналы двух половин гидроблока друг от друга, со временем разрушаются, приводя к неконтролируемому перетеканию гидравлической жидкости между каналами. Во-вторых, резиновые демпферы, сглаживающие скачки давления при работе соленоидов, со временем вдавливаются в свои корпуса и становятся жесткими, что приводит к более топорной работе гидравлики. В-третьих, как и в шестиступенчатых гидроблоках, у 8HP клапаны покрыты тефлоновым слоем, который склонен к разрушению со временем. Когда это покрытие начинает осыпаться, в рабочих парах клапан-посадочное место образуются негерметичные области, приводящие к утрате давления, необходимого для включения передачи.</p>
@@ -157,9 +157,9 @@ image: "https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg"
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot3" onclick="currentSlide(1, 3)"></span>
-  <span class="dot3" onclick="currentSlide(2, 3)"></span>
-  <span class="dot3" onclick="currentSlide(3, 3)"></span>
+  <span class="dot" onclick="currentSlide(1, 3)"></span>
+  <span class="dot" onclick="currentSlide(2, 3)"></span>
+  <span class="dot" onclick="currentSlide(3, 3)"></span>
 </div>
 
 <h2>Гидротрансформатор</h2>
@@ -271,26 +271,11 @@ image: "https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg"
 </div>
 
 <script>
-let slideIndex = [1, 1, 1, 1]; // Индексы для каждой карусели
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]; // Уникальные классы для каждой карусели
-
-showSlides(1, 0); // Показать первый слайд первой карусели
-showSlides(1, 1); // Показать первый слайд второй карусели
-showSlides(1, 2);
-showSlides(1, 3);
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function currentSlide(n, no) {
-  showSlides(slideIndex[no] = n, no);
-}
-
 function showSlides(n, no) {
   let i;
   let slides = document.getElementsByClassName(slideId[no]); // Получаем слайды для текущей карусели
-  let dots = document.getElementsByClassName("dot" + no); // Получаем индикаторы для текущей карусели
+  let dotsContainer = document.querySelectorAll("div[style='text-align:center']")[no]; // Контейнер индикаторов
+  let dots = dotsContainer.getElementsByClassName("dot"); // Индикаторы внутри текущего контейнера
 
   if (n > slides.length) { slideIndex[no] = 1; } // Если индекс больше количества слайдов
   if (n < 1) { slideIndex[no] = slides.length; } // Если индекс меньше 1
