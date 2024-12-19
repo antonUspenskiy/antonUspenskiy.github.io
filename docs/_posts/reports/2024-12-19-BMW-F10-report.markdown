@@ -16,6 +16,8 @@ excerpt: "Техническое заключение о состоянии АК
 image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo.jpg"
 ---
 
+<link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
+
 <div class="article-container">
 
 <figure>
