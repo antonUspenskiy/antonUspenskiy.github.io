@@ -1,0 +1,23 @@
+---
+layout: default
+title: Статьи
+permalink: /reports/
+---
+
+<link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
+
+<h1>Статьи</h1>
+<div class="reports-page">
+  {% for post in site.categories.reports %}
+    <div class="post-block">
+      <h2 class="post-title">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      {% if post.image %}
+        <img src="{{ post.image }}" alt="{{ post.title }} cover image" class="post-cover">
+      {% endif %}
+      <p class="post-excerpt">{{ post.excerpt }}</p>
+      <a href="{{ post.url }}" class="read-more-btn">Читать далее</a>
+    </div>
+  {% endfor %}
+</div>
