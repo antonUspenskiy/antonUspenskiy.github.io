@@ -291,9 +291,9 @@ figure figcaption {
     background-color: #007BFF;
     color: white !important;
     text-decoration: none;
-    padding: 2vw 3vw;
+    padding: 1vw 1vw;
     border-radius: 5px;
-    font-size: 1.4vw;
+    font-size: 1vw;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
