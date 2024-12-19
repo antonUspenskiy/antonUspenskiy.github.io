@@ -253,7 +253,7 @@ figure figcaption {
 }
 
 .articles-page {
-    width: 90%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     gap: 4vw;
@@ -281,9 +281,9 @@ figure figcaption {
 }
 
 .post-excerpt {
-    font-size: 1.6vw;
+    font-size: 1vw;
     color: #333;
-    margin: 2vw 0;
+    margin: 0 0 2vw 0;
 }
 
 .read-more-btn {
