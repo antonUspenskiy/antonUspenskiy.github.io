@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Статьи
+title: Заключения
 permalink: /reports/
 ---
 
@@ -9,7 +9,7 @@ permalink: /reports/
 <div class="article-container">
 
 <h1>Технические заключения</h1>
-<div class="reports-page">
+<div class="articles-page">
   {% for post in site.categories.reports %}
     <div class="post-block">
       <h2 class="post-title">
