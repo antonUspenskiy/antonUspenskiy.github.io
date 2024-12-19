@@ -59,12 +59,12 @@ image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo
 <p>- В части гидравлической системы: деформация сальника масляного насоса и образование выработки рабочей поверхности статора насоса, вызвавшие падение и возрастание пульсации давления в гидравлической системе коробки передач.</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-pump-seal.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-pump-seal.jpg">
   <figcaption>Деформация сальника масляного насоса</figcaption>
 </figure>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-pump-stator.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-pump-stator.jpg">
   <figcaption>Выработка статора масляного насоса</figcaption>
 </figure>
 
@@ -72,7 +72,7 @@ image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo
   в частности - разрушение фрикционного покрытия дисков и накопление деформаций стальными дисками, что еще только ухудшило качество сцепления пакетов;</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-plates-wearout.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-plates-wearout.jpg">
   <figcaption>Износ дисков сцепления</figcaption>
 </figure>  
 
@@ -80,12 +80,12 @@ image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo
   во время совместной работы с клапанами С (2, 4 передача) и D (1, 2, 3 передачи), некорректная отработка клапана «B» приводила к включению пакетов сцепления с запозданием и ударами;</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-solenoid-B-benchmark.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-solenoid-B-benchmark.jpg">
   <figcaption>График работы соленоида «B» обозначен желтыми линиями и выходит за границы эталонного «коридора», обозначенного зеленой и красной линией</figcaption>
 </figure>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-solenoid-B.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-solenoid-B.jpg">
   <figcaption>Соленоид «B»</figcaption>
 </figure>
 
@@ -93,7 +93,7 @@ image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo
   жидкости между различными филиалами мехатроника, что нарушало заложенную в его архитектуру логику работы;</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-separator.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-separator.jpg">
   <figcaption>Разрушение резиновых дорожек пластины-сепаратора</figcaption>
 </figure>
   
@@ -101,14 +101,14 @@ image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo
   к возникновению ударного характера переключения передач;</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-dampers.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-dampers.jpg">
   <figcaption>Изношенные демпферы</figcaption>
 </figure>
 
 <p>- Также была обнаружена причина вибраций КПП, утраты динамики разгона и возникновения ошибки P0741; она заключалась в износе пакета сцепления блокировки гидротрансформатора, который приводил к неполному закрытию пакета и проскальзыванию, составляющих его дисков сцепления.</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-TQ-plates-wearout.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-TQ-plates-wearout.jpg">
   <figcaption>Изношенные диски механизма блокировки гидротрансформатора</figcaption>
 </figure>
   
@@ -117,12 +117,12 @@ image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo
 <p>- Ребра алюминиевых ступицы D и корзины сцепления E, удерживающие диски сцепления, начали разрушаться из-за постоянного соударения с ними.</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-D-ribs.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-D-ribs.jpg">
   <figcaption>Разбитые ребра ступицы D</figcaption>
 </figure>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10_report/BMW-F10-E-ribs.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-E-ribs.jpg">
   <figcaption>Разбитые ребра корзины сцепления E</figcaption>
 </figure>
 
