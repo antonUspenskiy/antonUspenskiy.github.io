@@ -6,6 +6,8 @@ permalink: /articles/
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
+<div class="article-container">
+
 <h1>Статьи</h1>
 <div class="articles-page">
   {% for post in site.categories.articles %}
@@ -20,4 +22,6 @@ permalink: /articles/
       <a href="{{ post.url }}" class="read-more-btn">Читать далее</a>
     </div>
   {% endfor %}
+</div>
+
 </div>
