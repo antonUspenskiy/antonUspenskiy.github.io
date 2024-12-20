@@ -57,8 +57,8 @@ image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover-7G
 
 <!-- Индикаторы для первой карусели -->
 <div style="text-align:center">
-  <span class="dot0" onclick="currentSlide(1, 0)"></span>
-  <span class="dot0" onclick="currentSlide(2, 0)"></span>
+  <span class="dot" onclick="currentSlide(1, 0)"></span>
+  <span class="dot" onclick="currentSlide(2, 0)"></span>
 </div>
 
 
@@ -85,8 +85,8 @@ image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover-7G
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot1" onclick="currentSlide(1, 1)"></span>
-  <span class="dot1" onclick="currentSlide(2, 1)"></span>
+  <span class="dot" onclick="currentSlide(1, 1)"></span>
+  <span class="dot" onclick="currentSlide(2, 1)"></span>
 </div>
 
 
@@ -141,10 +141,10 @@ image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover-7G
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot2" onclick="currentSlide(1, 2)"></span>
-  <span class="dot2" onclick="currentSlide(2, 2)"></span>
-  <span class="dot2" onclick="currentSlide(3, 2)"></span>
-  <span class="dot2" onclick="currentSlide(4, 2)"></span>
+  <span class="dot" onclick="currentSlide(1, 2)"></span>
+  <span class="dot" onclick="currentSlide(2, 2)"></span>
+  <span class="dot" onclick="currentSlide(3, 2)"></span>
+  <span class="dot" onclick="currentSlide(4, 2)"></span>
 </div>
 
 
@@ -156,11 +156,12 @@ image: "https://antonuspenskiy.github.io/assets/7229-TQ-article/7229-TQ-cover-7G
 
 <script>
 let slideIndex = [1, 1, 1]; // Индексы для каждой карусели
-let slideId = ["mySlides1", "mySlides2", "mySlides3"]; // Уникальные классы для каждой карусели
+let slideId = ["mySlides1", "mySlides2", "mySlides3"]; // Классы для каждой карусели
 
-showSlides(1, 0); // Показать первый слайд первой карусели
-showSlides(1, 1); // Показать первый слайд второй карусели
-showSlides(1, 2);
+showSlides(1, 0); // Первая карусель
+showSlides(1, 1); // Вторая карусель
+showSlides(1, 2); // Вторая карусель
+
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -172,20 +173,21 @@ function currentSlide(n, no) {
 
 function showSlides(n, no) {
   let i;
-  let slides = document.getElementsByClassName(slideId[no]); // Получаем слайды для текущей карусели
-  let dots = document.getElementsByClassName("dot" + no); // Получаем индикаторы для текущей карусели
+  let slides = document.getElementsByClassName(slideId[no]);
+  let dotsContainer = document.querySelectorAll("div[style='text-align:center']")[no];
+  let dots = dotsContainer.getElementsByClassName("dot");
 
-  if (n > slides.length) { slideIndex[no] = 1; } // Если индекс больше количества слайдов
-  if (n < 1) { slideIndex[no] = slides.length; } // Если индекс меньше 1
+  if (n > slides.length) { slideIndex[no] = 1; }
+  if (n < 1) { slideIndex[no] = slides.length; }
 
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; // Скрываем все слайды
+    slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", ""); // Убираем класс active у всех индикаторов
+    dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  slides[slideIndex[no] - 1].style.display = "block"; // Показываем текущий слайд
-  dots[slideIndex[no] - 1].className += " active"; // Активируем текущий индикатор
+  slides[slideIndex[no] - 1].style.display = "block";
+  dots[slideIndex[no] - 1].className += " active";
 }
 </script>
