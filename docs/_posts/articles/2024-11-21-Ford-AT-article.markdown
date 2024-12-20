@@ -47,8 +47,8 @@ image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jp
 
 <!-- Индикаторы для первой карусели -->
 <div style="text-align:center">
-  <span class="dot0" onclick="currentSlide(1, 0)"></span>
-  <span class="dot0" onclick="currentSlide(2, 0)"></span>
+  <span class="dot" onclick="currentSlide(1, 0)"></span>
+  <span class="dot" onclick="currentSlide(2, 0)"></span>
 </div>
 
 <p>Еще одно уязвимое место этих коробок – посадочное место дифференциала. Оно представляет собой привалочную плоскость вылитую непосредственно в корпусе АКПП. Со временем опорный подшипник дифференциала протачивает это посадочное место, что не только добавляет в систему продуктов износа, но и вызывает просадку дифференциала относительно его коронной шестерни, из-за чего начинают разрушаться их зубья.</p>
@@ -107,8 +107,8 @@ image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jp
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot1" onclick="currentSlide(1, 1)"></span>
-  <span class="dot1" onclick="currentSlide(2, 1)"></span>
+  <span class="dot" onclick="currentSlide(1, 1)"></span>
+  <span class="dot" onclick="currentSlide(2, 1)"></span>
 </div>
 
 <p>Помимо этого также нарекания вызывают электромагнитные клапаны гидроблока – они очень чувствительны к чистоте масла, а, учитывая ранее описанные повреждения сцепления, чистым масло в этой коробке бывает только до определенного пробега. – При пересечении этого рубежа продукты износа начинают забивать каналы клапанов и повреждать их иголки, что приводит к ошибкам в работе гидравлики и некорректным переключениям передач.</p>
@@ -154,8 +154,8 @@ image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jp
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot2" onclick="currentSlide(1, 2)"></span>
-  <span class="dot2" onclick="currentSlide(2, 2)"></span>
+  <span class="dot" onclick="currentSlide(1, 2)"></span>
+  <span class="dot" onclick="currentSlide(2, 2)"></span>
 </div>
 
 <p>Однако и этот агрегат нюансы, заложенные при его проектировании, не обошли стороной. Главная подлость этих коробок – гидроблоки. Они практически не поддаются ремонту. Если большинство других блоков можно восстановить, расточив посадочные места клапанов или гидроаккумуляторов и установить детали ремонтного размера, то в случае с «тэ-эф» такой номер не пройдет. Дело в том, что в большинстве мест расположения клапанов стенки гидроблока очень тонкие, и если часть клапанов по указанной схеме еще можно заменить, то, к примеру, гидроаккумуляторы уже не получится; мало того, что стенки тонкие, так еще и из-за подачи на них масла сбоку, выработка их посадочного места получается эллипсообразной формы – если такую растачивать, то от гидроблока ничего не останется. Конечно, для такой проблемы есть решение – ремонтные гидроаккумуляторы с резиновым уплотнительным кольцом, но это все-таки резина, а не сталь, из которой изготавливаются оригинальные гидроаккумуляторы, так что такая замена не будет работать долго, в связи с чем, эти гидроблоки чаще не ремонтируют, а меняют на новые.</p>
@@ -181,8 +181,8 @@ image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jp
 
 <!-- Индикаторы для второй карусели -->
 <div style="text-align:center">
-  <span class="dot3" onclick="currentSlide(1, 3)"></span>
-  <span class="dot3" onclick="currentSlide(2, 3)"></span>
+  <span class="dot" onclick="currentSlide(1, 3)"></span>
+  <span class="dot" onclick="currentSlide(2, 3)"></span>
 </div>
 
 <p>На этом пересчет коробок и неисправностей закончен. Агрегатов в списке получилось не так уж много, сколько можно было ожидать от такого крупного концерна, но Ford, в целом, и не привык модернизировать свои агрегаты каждую пятилетку, как это делает, к примеру, немецкая тройка. Да и на долю наших дорог, в силу деловых и политических причин, Фордов выпало меньше, чем могло бы. Относительно недавно у них как раз произошла модернизация трансмиссий, и новые агрегаты увидели свет. Но нас это как-то уже и не касается: новых автомобилей Ford у нас не предвидится, да и старых с каждым годом становится все меньше, а солнце Фордовского заката в России уже практически полностью скрылось за горизонтом.</p>
@@ -191,12 +191,12 @@ image: "https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jp
 
 <script>
 let slideIndex = [1, 1, 1, 1]; // Индексы для каждой карусели
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]; // Уникальные классы для каждой карусели
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"]; // Классы для каждой карусели
 
-showSlides(1, 0); // Показать первый слайд первой карусели
-showSlides(1, 1); // Показать первый слайд второй карусели
-showSlides(1, 2); 
-showSlides(1, 3); 
+showSlides(1, 0); // Первая карусель
+showSlides(1, 1); // Вторая карусель
+showSlides(1, 2); // Вторая карусель
+showSlides(1, 3); // Вторая карусель
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
@@ -208,20 +208,21 @@ function currentSlide(n, no) {
 
 function showSlides(n, no) {
   let i;
-  let slides = document.getElementsByClassName(slideId[no]); // Получаем слайды для текущей карусели
-  let dots = document.getElementsByClassName("dot" + no); // Получаем индикаторы для текущей карусели
+  let slides = document.getElementsByClassName(slideId[no]);
+  let dotsContainer = document.querySelectorAll("div[style='text-align:center']")[no];
+  let dots = dotsContainer.getElementsByClassName("dot");
 
-  if (n > slides.length) { slideIndex[no] = 1; } // Если индекс больше количества слайдов
-  if (n < 1) { slideIndex[no] = slides.length; } // Если индекс меньше 1
+  if (n > slides.length) { slideIndex[no] = 1; }
+  if (n < 1) { slideIndex[no] = slides.length; }
 
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none"; // Скрываем все слайды
+    slides[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", ""); // Убираем класс active у всех индикаторов
+    dots[i].className = dots[i].className.replace(" active", "");
   }
 
-  slides[slideIndex[no] - 1].style.display = "block"; // Показываем текущий слайд
-  dots[slideIndex[no] - 1].className += " active"; // Активируем текущий индикатор
+  slides[slideIndex[no] - 1].style.display = "block";
+  dots[slideIndex[no] - 1].className += " active";
 }
 </script>
