@@ -305,6 +305,6 @@ figure figcaption {
 }
 
 .article-container {
-    max-width: 60%;
+    max-width: clamp(700px, 50%, 1000px);
     margin: 0 auto;
 }
