@@ -28,8 +28,8 @@ body {
     background-color: blue;
     color: white;
     padding: 5%; /* Отступы */
-    flex-basis: 30%; /* Фиксируем ширину */
-    max-width: 30%; /* Максимальная ширина */
+    flex-basis: 23%; /* Фиксируем ширину */
+    max-width: 23%; /* Максимальная ширина */
     min-width: 300px; /* Минимальная ширина */
     display: flex;
     flex-direction: column;
@@ -49,7 +49,7 @@ body {
 .intro-text p {
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 500;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     margin: 1vw 0 0 0;
     line-height: 1.1;
 }
@@ -63,7 +63,7 @@ body {
     align-items: center;
     justify-content: center;
     width: auto; /* Убираем ограничение по ширине */
-    max-width: 60%; /* Предотвращаем выход за пределы родителя */
+    max-width: 70%; /* Предотвращаем выход за пределы родителя */
     padding: 0.5em 1em; /* Добавляем гибкость размеров */
     height: auto; /* Убираем фиксированную высоту */
     font-size: 1vw;
@@ -114,7 +114,7 @@ body {
     justify-content: center; /* Центрирование кнопок */
     align-items: center; /* Выравнивание кнопок по вертикали */
     flex-wrap: wrap; /* Перенос кнопок на следующую строку при нехватке места */
-    gap: 0.5vw; /* Отступ между кнопками с использованием vw */
+    gap: 0.9vw; /* Отступ между кнопками с использованием vw */
     padding: 1vw;
 }
 
