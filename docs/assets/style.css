@@ -257,7 +257,7 @@ figure figcaption {
 }
 
 .articles-page {
-    width: 60%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 4vw;
