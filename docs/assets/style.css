@@ -271,7 +271,7 @@ figure figcaption {
     padding: 4vw;
 }
 
-.articles-page .post-title {
+.articles-page .post-title a {
     color: black;
     font-size: 2vw;
     line-height: 1.2;
@@ -281,7 +281,7 @@ figure figcaption {
     text-decoration: none !important;
 }
 
-.articles-page .post-title:hover {
+.articles-page .post-title a:hover {
    text-decoration: none !important;
    color: blue;
 }
