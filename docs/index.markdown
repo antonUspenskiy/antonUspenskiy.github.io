@@ -2,7 +2,6 @@
 layout: default
 title: Главная страница
 permalink: /
-exclude: true
 ---
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
