@@ -8,8 +8,8 @@ permalink: /articles/
 
 <div class="article-container">
 
-<h1>Статьи</h1>
 <div class="articles-page">
+  <h1>Статьи</h1>
   {% for post in site.categories.articles %}
     <div class="post-block">
       <h2 class="post-title">
