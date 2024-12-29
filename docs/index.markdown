@@ -17,7 +17,7 @@ permalink: /
     </div>
     <!-- Правая колонка -->
     <div class="intro-image">
-        <img src="https://antonuspenskiy.github.io/assets/index/Main.jpg" alt="Антон Успенский">
+        <img src="https://antonuspenskiy.github.io/assets/index/Main-transparent.png" alt="Антон Успенский">
     </div>
 </div>
 
