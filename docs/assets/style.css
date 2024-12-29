@@ -28,8 +28,8 @@ body {
     background-color: blue;
     color: white;
     padding: 5%; /* Отступы */
-    flex-basis: 23%; /* Фиксируем ширину */
-    max-width: 23%; /* Максимальная ширина */
+    flex-basis: 23.5%; /* Фиксируем ширину */
+    max-width: 24%; /* Максимальная ширина */
     min-width: 300px; /* Минимальная ширина */
     display: flex;
     flex-direction: column;
