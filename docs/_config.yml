@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-# title: Антон Успенский
+title: Антон Успенский
 description: Технический писатель/автор статей
 baseurl: ""
 url: "" #"https://antonUspenskiy.github.io/"  # Убедись, что URL верный
