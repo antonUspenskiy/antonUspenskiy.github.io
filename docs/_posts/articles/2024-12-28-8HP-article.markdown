@@ -10,6 +10,9 @@ image: "https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg"
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
 <div class="article-container">
+
+<h1 class="article-title">{{ page.title }}</h1>
+  
 <figure>
   <img src="https://antonuspenskiy.github.io/assets/8HP-article/cover.jpg">
 </figure>
