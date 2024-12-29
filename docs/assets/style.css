@@ -278,6 +278,12 @@ figure figcaption {
     margin: 0 0 2vw 0;
     font-family: 'TT Travels Next Trl', sans-serif;
     font-weight: 800;
+    text-decoration: none;
+}
+
+.post-title:hover {
+   text-decoration: none;
+   color: blue;
 }
 
 .post-cover {
