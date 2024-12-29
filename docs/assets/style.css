@@ -267,20 +267,22 @@ figure figcaption {
 
 .post-block {
     background-color: white;
-    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 4vw;
 }
 
 .post-title {
+    color: black;
     font-size: 2vw;
+    line-height: 1.2;
     margin: 0 0 2vw 0;
+    font-family: 'TT Travels Next Trl', sans-serif;
+    font-weight: 800;
 }
 
 .post-cover {
     width: 100%;
     height: auto;
-    border-radius: 8px;
     margin: 2vw 0;
 }
 
