@@ -8,8 +8,8 @@ permalink: /reports/
 
 <div class="article-container">
 
-<h1>Технические заключения</h1>
 <div class="articles-page">
+  <h1>Технические заключения</h1>
   {% for post in site.categories.reports %}
     <div class="post-block">
       <h2 class="post-title">
