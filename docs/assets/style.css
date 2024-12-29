@@ -320,3 +320,10 @@ figure figcaption {
     max-width: clamp(700px, 80%, 1000px);
     margin: 0 auto;
 }
+
+.article-container .article-title {
+    font-size: 2.5vw; /* или другой размер */
+    margin: 0 auto; /* Центровка */
+    text-align: left; /* Или left, если требуется */
+    padding: 1vw 0; /* Дополнительный отступ */
+}
