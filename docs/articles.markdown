@@ -6,7 +6,7 @@ permalink: /articles/
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
-<div class="article-container">
+<div class="blocks-container">
 
 <div class="articles-page">
   <h1>Статьи</h1>
