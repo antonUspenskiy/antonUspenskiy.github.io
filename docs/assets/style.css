@@ -242,8 +242,8 @@ figure figcaption {
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
-  height: 1vw;
-  width: 1vw;
+  height: 0.3vw;
+  width: 0.3vw;
   margin: 0 2px;
   margin-bottom: 2vw;
   background-color: #bbb;
