@@ -332,3 +332,9 @@ figure figcaption {
     text-align: left; /* Или left, если требуется */
     padding: 1vw 0; /* Дополнительный отступ */
 }
+
+.article-container p {
+    max-width: clamp(700px, 60%, 1000px);
+    margin: 0 auto
+}
+    
