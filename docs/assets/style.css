@@ -334,7 +334,8 @@ figure figcaption {
 }
 
 .article-container p {
-    max-width: clamp(700px, 60%, 1000px);
+    max-width: clamp(700px, 70%, 1000px);
     margin: 0 auto
+    text-align: left;
 }
     
