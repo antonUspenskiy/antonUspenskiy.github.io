@@ -300,18 +300,18 @@ figure figcaption {
 
 .read-more-btn {
     display: inline-block;
-    background-color: #007BFF;
-    color: white !important;
+    background-color: white;
+    border: 3px solid blue;
+    color: blue !important;
     text-decoration: none;
-    padding: 1vw 1vw;
-    border-radius: 5px;
-    font-size: 1vw;
+    padding: 1vw;
+    font-size: 1.2vw;
     font-weight: bold;
     transition: background-color 0.3s ease;
 }
 
 .read-more-btn:hover {
-    background-color: #0056b3;
+    background-color: blue;
     color: white !important;
     text-decoration: none;
 }
