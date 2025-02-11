@@ -8,6 +8,7 @@ permalink: /other/
 
 <div class="blocks-container">
 
+<div class="other-page">
 <h1>Другое</h1><br/>
 <p>Здесь перечислены мои навыки, которые могут дополнительно потребоваться при работе с техническими текстами и выполнении многих других задач.</p>
 <h2>Adobe Photoshop/Illustrator</h2>
@@ -25,5 +26,6 @@ permalink: /other/
   <img src="https://antonuspenskiy.github.io/assets/Ford-AT-article/Ford-AT-cover.jpg">
 </figure>
 <p>Описание навыка, как он может пригодиться.</p>
+</div>
 
 </div>
