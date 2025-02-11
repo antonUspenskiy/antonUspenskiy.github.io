@@ -38,9 +38,9 @@
 
 /* Заголовок */
 .intro-text h1 {
-    font-family: 'TT Travels Next Trl', sans-serif;
+    font-family: "Unbounded", serif;
     font-weight: 800;
-    line-height: 1.2;
+    line-height: 1;
     font-size: 3vw;
     margin: 0;
 }
@@ -49,7 +49,7 @@
 .intro-text p {
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 200;
     font-style: normal;
     font-size: 1.3vw;
     margin: 1vw 0 0 0;
@@ -69,10 +69,9 @@
     padding: 0.5em 1em; /* Добавляем гибкость размеров */
     height: auto; /* Убираем фиксированную высоту */
     font-size: 1vw;
-    line-height: 1.2;
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
-    font-weight: 800;
+    font-weight: 300;
     font-style: normal;
     transition: transform 0.3s ease;
     margin-top: auto;
@@ -147,7 +146,7 @@
 /* Заголовок в кнопке (сверху) */
 .button h2 {
     font-size: 3vw; /* Размер шрифта для заголовка */
-    font-family: 'TT Travels Next Trl', sans-serif;
+    font-family: "Unbounded", serif;
     font-weight: 800;
     margin: 0;
     color: blue;
@@ -158,7 +157,7 @@
     font-size: 1.2vw; /* Меньший размер шрифта для описания */
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
     margin-top:2vw;
     color: blue;
