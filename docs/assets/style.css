@@ -346,4 +346,11 @@ figure figcaption {
     max-width: clamp(700px, 90%, 1000px);
     text-align: left;
 }
-    
+
+.other-page h2 {
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2.5vw
+}
