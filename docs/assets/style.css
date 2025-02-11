@@ -1,11 +1,11 @@
-@import url('https://fonts.cdnfonts.com/css/tt-travels-next-trl');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
-body {
+/*body {
     background-color: #f0f0f0; /* Цвет фона страницы */
-    font-family: Arial, sans-serif; /* Шрифт для текста */
-    margin: 0;
-    font-size: 1rem; /* Размер шрифта относительно корня */
-}
+    /*font-family: Arial, sans-serif; /* Шрифт для текста */
+    /*margin: 0;
+    /*font-size: 1rem; /* Размер шрифта относительно корня */
+/*}*/
 
 .container {
     width: 100%; /* Ширина на весь экран */
@@ -47,8 +47,10 @@ body {
 
 /* Описание */
 .intro-text p {
-    font-family: 'TT Travels Next Trl', sans-serif;
-    font-weight: 500;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     font-size: 1.3vw;
     margin: 1vw 0 0 0;
     line-height: 1.1;
@@ -68,8 +70,10 @@ body {
     height: auto; /* Убираем фиксированную высоту */
     font-size: 1vw;
     line-height: 1.2;
-    font-family: 'TT Travels Next Trl', sans-serif;
-    font-weight: 500;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
     transition: transform 0.3s ease;
     margin-top: auto;
 }
@@ -103,8 +107,10 @@ body {
     width: 100%; /* Убираем ограничения ширины */
     padding: 0 2vw; /* Небольшие отступы по бокам */
     text-align: center; /* Центрируем текст */
-    font-family: 'TT Travels Next Trl', sans-serif;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
     font-weight: 800;
+    font-style: normal;
     font-size: 3vw;
 }
 
@@ -150,8 +156,10 @@ body {
 /* Описание в кнопке (снизу) */
 .button p {
     font-size: 1.2vw; /* Меньший размер шрифта для описания */
-    font-family: 'TT Travels Next Trl', sans-serif;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
     font-weight: 500;
+    font-style: normal;
     margin-top:2vw;
     color: blue;
 }
@@ -276,8 +284,10 @@ figure figcaption {
     font-size: 2vw;
     line-height: 1.2;
     margin: 0 0 2vw 0;
-    font-family: 'TT Travels Next Trl', sans-serif;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
     font-weight: 800;
+    font-style: normal;
     text-decoration: none !important;
 }
 
