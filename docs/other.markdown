@@ -18,7 +18,7 @@ permalink: /other/
 <p>Описание навыка, как он может пригодиться.</p><br/>
 <h2>Blender 3D</h2>
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/other/blender-hardskill-wireframe">
+  <img src="https://antonuspenskiy.github.io/assets/other/blender-hardskill-wireframe.jpg">
 </figure>
 <p>Описание навыка, как он может пригодиться.</p><br/>
 <h2>Adobe Premiere/After Effects</h2>
