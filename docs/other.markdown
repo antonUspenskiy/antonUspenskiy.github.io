@@ -22,8 +22,8 @@ permalink: /other/
 </figure>
 <p>Описание навыка, как он может пригодиться.</p><br/>
 <h2>Adobe Premiere/After Effects</h2>
-<video autoplay loop muted playsinline>
-  <source src=""https://antonuspenskiy.github.io/assets/other/PIC_BRENNER.mp4" type="video/mp4">
+<video width="1929" height="1080" autoplay loop muted playsinline>
+  <source src="https://antonuspenskiy.github.io/assets/other/PIC_BRENNER.mp4" type="video/mp4">
 </video>
 <p>Описание навыка, как он может пригодиться.</p>
 </div>
