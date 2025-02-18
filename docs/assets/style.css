@@ -354,3 +354,8 @@ figure figcaption {
     font-style: normal;
     font-size: 2.5vw
 }
+
+.video {
+    width: 100%;
+    height: auto;
+}
