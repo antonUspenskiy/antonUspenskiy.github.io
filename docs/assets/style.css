@@ -170,10 +170,22 @@
 
 /* Стиль кнопки при наведении */
 .button:hover {
-    background-color: blue;
-    border: 4px solid blue;
-    text-decoration: none;
+    display: flex; /* Flexbox для содержимого кнопки */
+    flex-direction: column; /* Размещение текста в колонку */
+    align-items: flex-start; /* Выравнивание по левому краю */
+    width: 30%; /* Ширина кнопки 26% */
+    height: 20vw; /* Высота кнопки с использованием vw */
+    /*margin: 0.5vw; /* Отступ между кнопками */
+    background-color: blue; /* Белый фон */
+    border: 0.3vw solid blue; /* Граница */
+    font-size: 2vw; /* Размер шрифта */
     color: white;
+    text-decoration: none;
+    border-radius: 0;
+    padding: 2vw; /* Отступ внутри кнопки с использованием vw */
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: center;
 }
 
 .button:hover h2 {
