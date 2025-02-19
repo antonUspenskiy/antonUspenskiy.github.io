@@ -102,7 +102,7 @@
 
 /* Приветственный текст */
 .welcome-text h2 {
-    /*margin-bottom: 4vw; /* Отступ снизу с использованием vw */
+    margin-bottom: 1.5vw; /* Отступ снизу с использованием vw */
     width: 100%; /* Убираем ограничения ширины */
     padding: 0 2vw; /* Небольшие отступы по бокам */
     text-align: center; /* Центрируем текст */
@@ -114,9 +114,10 @@
 }
 
 .welcome-text p {
-    text-align: center; /* Центрируем текст */
+    text-align: left; /* Центрируем текст */
     font-size: 1.2vw;
     margin: 0 auto;
+    max-width: 80%;
 }
 
 /* Стиль контейнера кнопок */
