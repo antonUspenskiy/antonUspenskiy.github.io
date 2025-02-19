@@ -347,6 +347,10 @@ figure figcaption {
     text-align: left;
 }
 
+.other-page {
+    text-align: center;
+}
+
 .other-page h2 {
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
@@ -359,3 +363,4 @@ figure figcaption {
     width: 100%;
     height: auto;
 }
+
