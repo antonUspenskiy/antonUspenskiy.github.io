@@ -78,7 +78,7 @@
 }
 
 .print-button:hover {
-    transform: scale(1.1);
+    background-color: #28ff4a;
     text-decoration: none;
     color: blue;
 }
