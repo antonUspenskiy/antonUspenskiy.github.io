@@ -116,6 +116,7 @@
 .welcome-text p {
     text-align: center; /* Центрируем текст */
     font-size: 1.2vw;
+    margin: 0 auto;
 }
 
 /* Стиль контейнера кнопок */
