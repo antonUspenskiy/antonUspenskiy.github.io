@@ -349,6 +349,11 @@ figure figcaption {
     margin: 0 auto;
 }
 
+.blocks-container-90 {
+    max-width: clamp(700px, 90%, 1000px);
+    margin: 0 auto;
+}
+
 .article-container {
     max-width: clamp(700px, 80%, 1000px);
     margin: 0 auto;
