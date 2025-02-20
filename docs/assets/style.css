@@ -370,12 +370,17 @@ figure figcaption {
     text-align: center;
 }
 
+.other-page p {
+    font-size: 1vw;
+}
+
 .other-page h2 {
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    font-size: 2.5vw
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
 }
 
 .video {
