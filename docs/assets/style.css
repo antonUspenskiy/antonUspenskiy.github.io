@@ -350,7 +350,7 @@ figure figcaption {
 }
 
 .blocks-container-90 {
-    max-width: clamp(700px, 90%, 1000px);
+    max-width: clamp(700px, 80%, 1600px);
     margin: 0 auto;
 }
 
