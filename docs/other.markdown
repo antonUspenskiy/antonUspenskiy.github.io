@@ -6,7 +6,7 @@ permalink: /other/
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
 
-<div class="blocks-container">
+<div class="blocks-container-90">
 
 <div class="other-page">
 <h1>Другое</h1><br/>
