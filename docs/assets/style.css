@@ -115,7 +115,7 @@
 
 .welcome-text p {
     text-align: left; /* Центрируем текст */
-    font-size: 1.2vw;
+    font-size: 1vw;
     margin: 0 auto;
     max-width: 80%;
 }
