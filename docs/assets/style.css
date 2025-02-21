@@ -332,10 +332,13 @@ figure figcaption {
     background-color: white;
     border: 0.2vw solid blue;
     color: blue !important;
-    text-decoration: none;
-    padding: 0.5vw 1vw;
+    font-family: "Unbounded", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1vw;
-    font-weight: bold;
+    text-decoration: none !important;
+    padding: 0.5vw 1vw;
 }
 
 .read-more-btn:hover {
