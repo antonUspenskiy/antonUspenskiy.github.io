@@ -10,7 +10,7 @@ excerpt: "Техническое заключение о состоянии АК
 - Рывки автомобиля, сопровождаемые скачками оборотов двигателя и возникающие при старте с места. Симптом перестает проявляться при достижении скорости 10-20 км/ч;
 - Отсутствие задней передачи. Попытка ее включения приводит к сильному толчку КПП и переводу трансмиссии в режим аварийной работы."
 
-image: "https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-car-photo.jpg"
+image: "https://antonuspenskiy.github.io/assets/Audi-A1-report/Audi-A1-car-photo.jpg"
 ---
 
 <link rel="stylesheet" href="https://antonuspenskiy.github.io/assets/style.css">
@@ -59,28 +59,33 @@ VIN:<br/>
 <p>- Оказался разрушен опорный подшипник вилки переключения 6-R. Его поломка приво-дила к перекосу вилки в своих направляющих и ее залипанию в одном положении. В связи с этим, 6-я и Reverse-передача не могли быть включены, что отмечалось блоком управления КПП в качестве ошибок P072B, P073B с последующим введением агрегата в аварийный режим;</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-pump-seal.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/Audi-A1-report/Audi-A1-fork.jpg">
   <figcaption>Разрушенный опорный подшипник вилки переключения 6-R</figcaption>
 </figure>
 
 <p>- При опрессовке корпуса гидроблока была выявлена утечка давления из-за образовавшейся микротрещины в стакане гидроаккумулятора;</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-pump-seal.jpg">
-  <figcaption>Микротрещина стакана гидроаккумулятора. Визуализация.</figcaption>
+  <img src="https://antonuspenskiy.github.io/assets/Audi-A1-report/DCT_crack_2.jpg">
+  <figcaption>Микротрещина стакана гидроаккумулятора. Визуализация №1.</figcaption>
+</figure>
+
+<figure>
+  <img src="https://antonuspenskiy.github.io/assets/Audi-A1-report/DCT_crack_1.jpg">
+  <figcaption>Микротрещина стакана гидроаккумулятора. Визуализация №1.</figcaption>
 </figure>
 
 <p>- В ходе тестирования соленоидов была выявлена неисправность соленоида NL-Slow 1-3 передач, вызванная сужением просвета его гидравлического канала. Согласно полученному графику работы, соленоид не обеспечивал подачи требуемых 5.4 MPa давления, остановившись на значении 4.95 MPa. Это приводило к некачественному включению 1-й и 3-й передач.</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-pump-seal.jpg">
-  <figcaption>График работы соленоида NL-Slow</figcaption>
+  <img src="https://antonuspenskiy.github.io/assets/Audi-A1-report/solenoid-benchmark-Slow-NL.jpg">
+  <figcaption>График работы соленоида NL-Slow 1/3 передач</figcaption>
 </figure>
 
 <p>- При визуальном осмотре корзины сцепления было отмечено плохое состояние дисков сцепления: они оказались изношены и перегреты, что приводило к плохому качеству их зацепления, пробуксовке и потере крутящего момента, поступающего с двигателя.</p>
 
 <figure>
-  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/BMW-F10-pump-seal.jpg">
+  <img src="https://antonuspenskiy.github.io/assets/BMW-F10-report/Audi-A1-report/Audi-A1-Clutch.jpg">
   <figcaption>Корзина сцепления. В середине кадра визуально определяются два почерневших вследствие износа диска сцепления</figcaption>
 </figure>
 
