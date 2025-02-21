@@ -328,14 +328,14 @@ figure figcaption {
 
 .read-more-btn {
     display: inline-block;
+    vertical-align: middle;
     background-color: white;
     border: 0.2vw solid blue;
     color: blue !important;
     text-decoration: none;
-    padding: 0.5vw 1vw 0.5vw;
+    padding: 0.5vw 1vw;
     font-size: 1vw;
     font-weight: bold;
-    transition: background-color 0.3s ease;
 }
 
 .read-more-btn:hover {
