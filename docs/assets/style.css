@@ -60,7 +60,7 @@
 .print-button {
     background-color: white;
     color: blue;
-    text-decoration: none;
+    text-decoration: none !important;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,14 +79,14 @@
 
 .print-button:hover {
     background-color: #28ff4a;
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
 }
 
 .print-button-alt {
     background-color: blue;
     color: white;
-    text-decoration: none;
+    text-decoration: none !important;
     align-items: center;
     justify-content: center;
     width: auto; /* Убираем ограничение по ширине */
@@ -105,7 +105,7 @@
 
 .print-button-alt:hover {
     background-color: #28ff4a;
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
 }
 
