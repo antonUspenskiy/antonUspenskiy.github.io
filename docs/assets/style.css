@@ -404,8 +404,7 @@ figure figcaption {
 }
 
 .article-container p {
-    max-width: clamp(700px, 90%, 1000px);
-    text-align: left;
+    text-align: justify;
 }
 
 .other-page {
