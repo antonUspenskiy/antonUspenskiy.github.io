@@ -355,6 +355,7 @@ figure figcaption {
 }
 
 .post-excerpt {
+    text-align: justify;
     font-size: 1vw;
     color: #333;
     margin: 0 0 2vw 0;
