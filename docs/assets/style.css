@@ -84,8 +84,9 @@
 }
 
 .print-button-alt {
-    background-color: blue;
-    color: white !important;
+    background-color: white;
+    border: 0.2vw solid blue;
+    color: blue !important;
     text-decoration: none !important;
     align-items: center;
     justify-content: center;
@@ -104,9 +105,10 @@
 }
 
 .print-button-alt:hover {
-    background-color: #28ff4a;
+    background-color: blue;
+    border: 0.2vw solid blue;
     text-decoration: none !important;
-    color: black !important;
+    color: white !important;
 }
 
 /* Правая колонка (изображение) */
@@ -242,12 +244,16 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  padding: 2vw;
+  transform: translateY(-70%); /* Центрирование по вертикали */
+  padding: 1vw; /* Уменьшили padding */
   color: white;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1.5vw; /* Уменьшили размер шрифта */
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-decoration: none; /* Убираем подчёркивание */
+  background-color: rgba(0, 0, 0, 0.5); /* Изначально затемнённые */
+  transition: background-color 0.3s ease; /* Плавное изменение */
 }
 
 /* Position the "next button" to the right */
@@ -262,9 +268,11 @@
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a darker background color */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.8); /* Темнее при наведении */
+  color: white !important;
+  text-decoration: none !important;  
 }
 
 /* Caption text for carousel */
