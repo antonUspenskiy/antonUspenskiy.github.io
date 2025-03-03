@@ -13,7 +13,7 @@ permalink: /
             <h1>Антон Успенский</h1>
             <p>Технический писатель, автор статей</p>
         </div>
-        <a href="https://antonuspenskiy.github.io/assets/CV.pdf" class="print-button">Распечатать резюме</a>
+        <a href="https://antonuspenskiy.github.io/assets/CV-Anton-Uspenskiy.pdf" class="print-button">Распечатать резюме</a>
     </div>
     <!-- Правая колонка -->
     <div class="intro-image">
