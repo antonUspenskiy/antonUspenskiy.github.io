@@ -5,19 +5,19 @@
     display: flex;
     align-items: stretch;
     margin-bottom: 2vw;
-    width: 90%; /* Общая ширина */
+    width: 90%; 
     margin: 0 auto;
-    flex-wrap: nowrap; /* Без переноса строк */
+    flex-wrap: nowrap; 
 }
 
 /* Левая колонка (текст) */
 .intro-text {
     background-color: blue;
     color: white;
-    padding: 5%; /* Отступы */
-    flex-basis: 23.5%; /* Фиксируем ширину */
-    max-width: 24%; /* Максимальная ширина */
-    min-width: 300px; /* Минимальная ширина */
+    padding: 5%; 
+    flex-basis: 23.5%; 
+    max-width: 24%; 
+    min-width: 300px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -51,10 +51,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: auto; /* Убираем ограничение по ширине */
-    max-width: 70%; /* Предотвращаем выход за пределы родителя */
-    padding: 0.5em 1em; /* Добавляем гибкость размеров */
-    height: auto; /* Убираем фиксированную высоту */
+    width: auto; 
+    max-width: 70%; 
+    padding: 0.5em 1em; 
+    height: auto; 
     font-size: 1vw;
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
@@ -77,10 +77,10 @@
     text-decoration: none !important;
     align-items: center;
     justify-content: center;
-    width: auto; /* Убираем ограничение по ширине */
-    max-width: 70%; /* Предотвращаем выход за пределы родителя */
-    padding: 0.5em 1em; /* Добавляем гибкость размеров */
-    height: auto; /* Убираем фиксированную высоту */
+    width: auto; 
+    max-width: 70%; 
+    padding: 0.5em 1em; 
+    height: auto; 
     font-size: 1vw;
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
@@ -100,9 +100,9 @@
 
 /* Правая колонка (изображение) */
 .intro-image {
-    flex-basis: 70%; /* Фиксируем ширину */
+    flex-basis: 70%; 
     max-width: 70%;
-    min-width: 300px; /* Минимальная ширина */
+    min-width: 300px; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -111,16 +111,16 @@
 /* Изображение */
 .intro-image img {
     width: 100%;
-    height: auto; /* Сохраняем пропорции */
+    height: auto; 
     object-fit: cover;
 }
 
 /* Приветственный текст */
 .welcome-text h2 {
-    margin-bottom: 1.5vw; /* Отступ снизу с использованием vw */
-    width: 100%; /* Убираем ограничения ширины */
-    padding: 0 2vw; /* Небольшие отступы по бокам */
-    text-align: center; /* Центрируем текст */
+    margin-bottom: 1.5vw; 
+    width: 100%; 
+    padding: 0 2vw; 
+    text-align: center; 
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -129,7 +129,7 @@
 }
 
 .welcome-text p {
-    text-align: justify; /* Центрируем текст */
+    text-align: justify; 
     font-size: 1rem;
     margin: 0 auto;
     max-width: 80%;
@@ -137,29 +137,28 @@
 
 /* Стиль контейнера кнопок */
 .button-container {
-    display: flex; /* Горизонтальное размещение */
-    justify-content: center; /* Центрирование кнопок */
-    align-items: center; /* Выравнивание кнопок по вертикали */
-    flex-wrap: wrap; /* Перенос кнопок на следующую строку при нехватке места */
-    gap: 0.9vw; /* Отступ между кнопками с использованием vw */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 0.9vw; 
     padding: 1vw;
 }
 
 /* Стиль кнопок */
 .button {
-    display: flex; /* Flexbox для содержимого кнопки */
-    flex-direction: column; /* Размещение текста в колонку */
-    align-items: flex-start; /* Выравнивание по левому краю */
-    width: 30%; /* Ширина кнопки 26% */
-    height: 20vw; /* Высота кнопки с использованием vw */
-    /*margin: 0.5vw; /* Отступ между кнопками */
-    background-color: white; /* Белый фон */
-    border: 0.3vw solid blue; /* Граница */
-    font-size: 2vw; /* Размер шрифта */
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 30%; 
+    height: 20vw; 
+    background-color: white; 
+    border: 0.3vw solid blue; 
+    font-size: 2vw; 
     color: blue;
     text-decoration: none;
     border-radius: 0;
-    padding: 2vw; /* Отступ внутри кнопки с использованием vw */
+    padding: 2vw; 
     box-sizing: border-box;
     background-size: cover;
     background-position: center;
@@ -176,7 +175,7 @@
 
 /* Описание в кнопке (снизу) */
 .button p {
-    font-size: 1.2vw; /* Меньший размер шрифта для описания */
+    font-size: 1.2vw; 
     font-family: "Unbounded", serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -187,19 +186,18 @@
 
 /* Стиль кнопки при наведении */
 .button:hover {
-    display: flex; /* Flexbox для содержимого кнопки */
-    flex-direction: column; /* Размещение текста в колонку */
-    align-items: flex-start; /* Выравнивание по левому краю */
-    width: 30%; /* Ширина кнопки 26% */
-    height: 20vw; /* Высота кнопки с использованием vw */
-    /*margin: 0.5vw; /* Отступ между кнопками */
-    background-color: blue; /* Белый фон */
-    border: 0.3vw solid blue; /* Граница */
-    font-size: 2vw; /* Размер шрифта */
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    width: 30%; 
+    height: 20vw; 
+    background-color: blue; 
+    border: 0.3vw solid blue; 
+    font-size: 2vw; 
     color: white;
     text-decoration: none;
     border-radius: 0;
-    padding: 2vw; /* Отступ внутри кнопки с использованием vw */
+    padding: 2vw;
     box-sizing: border-box;
     background-size: cover;
     background-position: center;
@@ -231,16 +229,16 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  transform: translateY(-70%); /* Центрирование по вертикали */
-  padding: 1vw; /* Уменьшили padding */
+  transform: translateY(-70%); 
+  padding: 1vw; 
   color: white;
   font-weight: bold;
-  font-size: 1.5vw; /* Уменьшили размер шрифта */
+  font-size: 1.5vw; 
   border-radius: 0 3px 3px 0;
   user-select: none;
-  text-decoration: none; /* Убираем подчёркивание */
-  background-color: rgba(0, 0, 0, 0.5); /* Изначально затемнённые */
-  transition: background-color 0.3s ease; /* Плавное изменение */
+  text-decoration: none; 
+  background-color: rgba(0, 0, 0, 0.5); 
+  transition: background-color 0.3s ease; 
 }
 
 /* Position the "next button" to the right */
@@ -257,7 +255,7 @@
 
 /* On hover, add a darker background color */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8); /* Темнее при наведении */
+  background-color: rgba(0, 0, 0, 0.8); 
   color: white !important;
   text-decoration: none !important;  
 }
@@ -385,10 +383,10 @@ figure figcaption {
 }
 
 .article-container .article-title {
-    font-size: 2.5vw; /* или другой размер */
-    margin: 0 auto; /* Центровка */
-    text-align: left; /* Или left, если требуется */
-    padding: 1vw 0; /* Дополнительный отступ */
+    font-size: 2.5vw;
+    margin: 0 auto; 
+    text-align: left; 
+    padding: 1vw 0; 
 }
 
 .article-container p {
