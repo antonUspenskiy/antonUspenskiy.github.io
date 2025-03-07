@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
 
-/*body {
-    background-color: #f0f0f0; /* Цвет фона страницы */
-    /*font-family: Arial, sans-serif; /* Шрифт для текста */
-    /*margin: 0;
-    /*font-size: 1rem; /* Размер шрифта относительно корня */
-/*}*/
-
-.container {
-    width: 100%; /* Ширина на весь экран */
-    padding: 0 2vw; /* Отступы по бокам с использованием vw */
-    margin: 0; /* Убираем центрирование */
-}
-
 /* Верхний блок с информацией */
 .intro-section {
     display: flex;
