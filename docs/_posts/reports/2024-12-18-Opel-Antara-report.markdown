@@ -17,7 +17,7 @@ image: "https://antonuspenskiy.github.io/assets/Opel-Antara-report/Opel-Antara-c
   <img src="https://antonuspenskiy.github.io/assets/CTT-header.jpg">
 </figure>
 
-<p align="right">Дата: 11.09.2023</p>
+<p align="right">Дата: 24.10.2023</p>
 <p align="right">Место проведения экспертизы: Москва, Алтуфьевское шоссе, д. 31, стр. 1</p>
 
 <h2 align="center">ТЕХНИЧЕСКОЕ ЗАКЛЮЧЕНИЕ</h2>
