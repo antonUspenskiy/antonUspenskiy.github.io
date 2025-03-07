@@ -19,14 +19,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Антон Успенский
-description: Технический писатель, автор статей
+description: ㅤ
 baseurl: ""
 url: "" #"https://antonUspenskiy.github.io/"  # Убедись, что URL верный
 theme: minima  # или любой другой выбранный тобой
 # twitter_username: jekyllrb
 github_username: antonUspenskiy
 email: uspenskii24@gmail.com
-telegram: @uspenskiy_anton
 collections:
   articles:
     output: true
