@@ -22,7 +22,7 @@ image: "https://antonuspenskiy.github.io/assets/Audi-A1-report/Audi-A1-car-photo
   <img src="https://antonuspenskiy.github.io/assets/CTT-header.jpg">
 </figure>
 
-<p align="right">Дата: 11.09.2023</p>
+<p align="right">Дата: 28.11.2023</p>
 <p align="right">Место проведения экспертизы: Москва, Алтуфьевское шоссе, д. 31, стр. 1</p>
 
 <h2 align="center">ТЕХНИЧЕСКОЕ ЗАКЛЮЧЕНИЕ</h2>
