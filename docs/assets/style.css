@@ -130,7 +130,7 @@
 
 .welcome-text p {
     text-align: justify; 
-    font-size: 2rem;
+    font-size: 1vw;
     margin: 0 auto;
     max-width: 80%;
 }
